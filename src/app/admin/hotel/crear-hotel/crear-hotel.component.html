@@ -1,0 +1,46 @@
+<p>
+    <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+        Nuevo registro
+    </button>
+</p>
+<div id="collapseExample" [ngbCollapse]="isCollapsed">
+    <div class="card">
+        <div class="card-body">
+            <form [formGroup]="datos">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nombrehotel">Nombre del hotel:</label>
+                        <input type="text" class="form-control" id="nombrehotel" placeholder="Arboleda"
+                            formControlName="nombrehotel" required>
+                        <small class="form-text text-muted">Campo obligatorio *</small>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="representantelegal">Representante legal:</label>
+                        <input type="text" class="form-control" id="representantelegal" placeholder="Mateo Flores"
+                            formControlName="representantehotel" required>
+                        <small class="form-text text-muted">Campo obligatorio *</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="CA-10 Carretera a Esquipulas"
+                        formControlName="direccionhotel" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
+                {{relay}}
+                <br>
+                {{response}}
+                <br>
+                <br>
+                <!--Inicia el espacio de mensajes-->
+                <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+                    {{ successMessage }}
+                </ngb-alert>
+
+            </form>
+        </div>
+    </div>
+</div>
