@@ -6,15 +6,28 @@
             <th scope="col">Dirección</th>
             <th scope="col">Representante</th>
             <th scope="col">Estado</th>
+            <th scope="col">Actualizar</th>
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let elemento of hoteles">                        
+        <tr *ngFor="let elemento of datos">
             <td>{{ elemento.idhotel}}</td>
             <td>{{ elemento.nombrehotel}}</td>
             <td>{{ elemento.direccionhotel }}</td>
             <td>{{ elemento.representantehotel }}</td>
-            <td>{{ elemento.estadohotel }}</td>        
+            <td *ngIf="elemento.estadohotel === 1; else Inactivo">
+                Activo
+            </td>
+            <ng-template #Inactivo>
+                <td>
+                    Inactivo
+                </td>
+            </ng-template>
+            <td>
+                <a title="Actualizar registro" (click)="updateData()">
+                    <i class="material-icons">{{ia}}</i>
+                </a>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -22,10 +35,10 @@
 <div class="d-flex justify-content-between p-2">
     <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
     </ngb-pagination>
-  
+
     <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
-      <option [ngValue]="2">2 items per page</option>
-      <option [ngValue]="4">4 items per page</option>
-      <option [ngValue]="6">6 items per page</option>
+        <option [ngValue]="2">2 items per page</option>
+        <option [ngValue]="4">4 items per page</option>
+        <option [ngValue]="6">6 items per page</option>
     </select>
-  </div>
+</div>

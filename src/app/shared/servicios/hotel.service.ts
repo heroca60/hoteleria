@@ -28,14 +28,14 @@ export class HotelService {
   }
 
   //***********GET Async/Away****************** 
-  async getElementos() {
+  async getData() {
     return await this._http.get<Ihotel[]>(environment.apiRest + 'hotels').toPromise();
   }
   //************************************************
   
   //***************POST con async/await*************************
-  async postElemento(data: Classhotel) {
-    let response = await this._http.post<Classhotel>(environment.apiRest + 'hotels', JSON.stringify(data), this.httpOptions).toPromise();
+  async postData(data: Ihotel) {
+    let response = await this._http.post<Ihotel>(environment.apiRest + 'hotels', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }
 

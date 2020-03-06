@@ -1,12 +1,15 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { Iarticulo } from '../interfaces/iarticulo';
-
+import { Observable, BehaviorSubject } from 'rxjs';
+//Manejadores de error
+import { catchError, map, tap } from 'rxjs/operators';
+import { Ihotel } from '../interfaces/ihotel';
 @Injectable({
   providedIn: 'root'
 })
-export class ArticuloService {
+export class ArticuloService {  
 
   constructor(
     private _http: HttpClient
@@ -34,4 +37,11 @@ export class ArticuloService {
     return await this._http.get<Iarticulo[]>(environment.apiRest + 'articulos').toPromise();
   }
   //************************************************
+
+
+  // GET Observable
+  getArticulos(): Observable<Iarticulo[]> {
+    return this._http.get<Iarticulo[]>(environment.apiRest + 'articulos');
+  }
+
 }

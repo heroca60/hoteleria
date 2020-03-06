@@ -19,6 +19,7 @@ import { HotelService } from './shared/servicios/hotel.service';
 import { ArticuloComponent } from './admin/articulo/articulo.component';
 import { CrearArticuloComponent } from './admin/articulo/crear-articulo/crear-articulo.component';
 import { ListarArticuloComponent } from './admin/articulo/listar-articulo/listar-articulo.component';
+import { ModificarHotelComponent } from './admin/hotel/modificar-hotel/modificar-hotel.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ListarArticuloComponent } from './admin/articulo/listar-articulo/listar
     ListarHotelComponent,
     ArticuloComponent,
     CrearArticuloComponent,
-    ListarArticuloComponent
+    ListarArticuloComponent,
+    ModificarHotelComponent
   ],
   imports: [
     BrowserModule,

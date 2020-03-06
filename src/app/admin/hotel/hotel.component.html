@@ -2,9 +2,16 @@
     <div class="card-header">
         <h3>Hoteles</h3>
     </div>
-    <div class="card-body">
+    <div class="card-body" *ngIf="crear ; else modificar">
         <app-crear-hotel></app-crear-hotel>
         <br>
-        <app-listar-hotel></app-listar-hotel>
     </div>
+    <ng-template #modificar>
+        <div class="card-body">
+            <app-modificar-hotel></app-modificar-hotel>
+            <br>
+        </div>
+    </ng-template>
+    
+        <app-listar-hotel (update)="cambiarComponente($event)"></app-listar-hotel>    
 </div>

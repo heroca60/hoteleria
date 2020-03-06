@@ -2,46 +2,44 @@ import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 import { FormBuilder, Validators } from '@angular/forms';
-import { ArticuloService } from '../../../shared/servicios/articulo.service';
-import { ListarArticuloComponent } from '../listar-articulo/listar-articulo.component';
+import { HotelService } from '../../../shared/servicios/hotel.service';
+
 
 @Component({
-  selector: 'app-crear-articulo',
-  templateUrl: './crear-articulo.component.html',
-  styleUrls: ['./crear-articulo.component.css'],
-  providers: [ListarArticuloComponent]
+  selector: 'app-modificar-hotel',
+  templateUrl: './modificar-hotel.component.html',
+  styleUrls: ['./modificar-hotel.component.css']
 })
-export class CrearArticuloComponent implements OnInit {
-  public isCollapsed = true;
+export class ModificarHotelComponent implements OnInit {
+  public isCollapsed = false;
   private _success = new Subject<string>();
 
   //*************** */
-  relay: any;
-  response: any;
+  relay:any;
+  response:any;
 
   //Variables para el mensaje de transacción
   staticAlertClosed = false;
   successMessage: string;
   messageType: string;
 
-
   //Datos del formulario
-  datos: any;  
-  
-
+  datos: any;
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
     //inyectando apiREST
-    private _apiRest: ArticuloService,
-    //inyectando el componente hermano
-    private _listarArticulo: ListarArticuloComponent
+    private _apiRest: HotelService
   ) {
     this.datos = this.formBuilder.group({
-      nombrearticulo: ['', Validators.required],
-      descripcionarticulo: ['', Validators.required]      
+      idhotel: [''],
+      nombrehotel: ['', Validators.required],
+      direccionhotel: ['', Validators.required],
+      representantehotel: ['', Validators.required],
+      estadohotel: ['']
     })
   }
+
 
   ngOnInit(): void {
     //Manejo de las alertas del formulario
@@ -51,17 +49,18 @@ export class CrearArticuloComponent implements OnInit {
       debounceTime(5000)
     ).subscribe(() => this.successMessage = null);
     //Fin del manejo de las alertas del formulario
+
   }
 
-  //post articulo con async/await
+
+  //post hotel con async/await
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
-        await this._apiRest.postElemento(this.datos.value);
+        await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
-                
       } catch (error) {
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);
@@ -70,5 +69,9 @@ export class CrearArticuloComponent implements OnInit {
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
+
   }
+
+
 }
+
