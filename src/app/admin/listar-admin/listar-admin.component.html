@@ -1,0 +1,32 @@
+<div class="row row-cols-1 row-cols-md-4">
+    <div class="col mb-4" *ngFor="let item of datos$">
+        <div class="card">
+            <a title="Administrar Hotel" routerLink="hotel">
+                <img src="../../assets/detallegasto.jpeg" class="card-img-top" alt="Administrar">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">{{item.nombrehotel}}</h5>
+                <p class="card-text">{{item.direccionhotel}}</p>
+            </div>
+            <div class="card-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <small class="text-muted">
+                                Creado: dd/mm/yyy
+                            </small>
+                        </div>
+                        <div class="col-2">
+                            <a>
+                                <i class="material-icons" title="Actualizar datos">settings</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">
+
+                </small>
+            </div>
+        </div>
+    </div>
+</div>

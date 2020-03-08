@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ListarAdminComponent } from './listar-admin/listar-admin.component';
 
 @Component({
   selector: 'app-admin',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild(ListarAdminComponent) componenteListar: ListarAdminComponent;
 
-  ngOnInit(): void {
+  constructor(
+  ) { }
+
+  ngOnInit(): void {    
   }
+
+  render(): void {
+    this.componenteListar.render();
+  }
+
 
 }
