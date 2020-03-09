@@ -2,14 +2,11 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { Iarticulo } from '../interfaces/iarticulo';
-import { Observable, BehaviorSubject } from 'rxjs';
-//Manejadores de error
-import { catchError, map, tap } from 'rxjs/operators';
-import { Ihotel } from '../interfaces/ihotel';
+
 @Injectable({
   providedIn: 'root'
 })
-export class ArticuloService {  
+export class ArticuloService {
 
   constructor(
     private _http: HttpClient
@@ -26,22 +23,15 @@ export class ArticuloService {
     })
   }
 
+  //***********GET Async/Away****************** 
+  async getData() {
+    return await this._http.get<Iarticulo[]>(environment.apiRest + 'articulos').toPromise();
+  }
+
   //***************POST con async/await*************************
   async postElemento(data: Iarticulo) {
     let response = await this._http.post<Iarticulo>(environment.apiRest + 'articulos', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }
-
-  //***********GET Async/Away****************** 
-  async getElementos() {
-    return await this._http.get<Iarticulo[]>(environment.apiRest + 'articulos').toPromise();
-  }
-  //************************************************
-
-
-  // GET Observable
-  getArticulos(): Observable<Iarticulo[]> {
-    return this._http.get<Iarticulo[]>(environment.apiRest + 'articulos');
-  }
-
+  
 }

@@ -34,7 +34,7 @@ export class CrearAdminComponent implements OnInit {
   datos: any;
 
   //Evento para el padre... post exitoso render del list.
-  @Output() renderSon = new EventEmitter<boolean>();
+  @Output() renderSon = new EventEmitter<string>();
 
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
@@ -96,7 +96,7 @@ export class CrearAdminComponent implements OnInit {
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
         //Enviado mensaje de actualización del listado
-        this.renderSon.emit();
+        this.renderSon.emit("true");
       } catch (error) {
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);

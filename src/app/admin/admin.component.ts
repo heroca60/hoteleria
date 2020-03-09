@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ListarAdminComponent } from './listar-admin/listar-admin.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { Ihotel } from '../shared/interfaces/ihotel';
 
 @Component({
   selector: 'app-admin',
@@ -8,17 +10,16 @@ import { ListarAdminComponent } from './listar-admin/listar-admin.component';
 })
 export class AdminComponent implements OnInit {
 
-  @ViewChild(ListarAdminComponent) componenteListar: ListarAdminComponent;
+  @ViewChild(ListarAdminComponent) componenteListar: ListarAdminComponent;  
 
   constructor(
   ) { }
 
-  ngOnInit(): void {    
+  ngOnInit(): void {
   }
 
-  render(): void {
+  render(val: string): void {
     this.componenteListar.render();
   }
-
-
+  
 }

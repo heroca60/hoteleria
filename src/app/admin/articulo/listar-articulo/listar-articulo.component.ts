@@ -1,16 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ArticuloService } from 'src/app/shared/servicios/articulo.service';
 import { Iarticulo } from '../../../shared/interfaces/iarticulo';
-import { Observable } from 'rxjs';
-import { ActivatedRoute } from '@angular/router';
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-listar-articulo',
   templateUrl: './listar-articulo.component.html',
   styleUrls: ['./listar-articulo.component.css']
 })
-export class ListarArticuloComponent implements OnInit {  
+export class ListarArticuloComponent implements OnInit {
   datos$: Iarticulo[] = [];
   page = 1;
   pageSize = 4;
@@ -20,14 +17,21 @@ export class ListarArticuloComponent implements OnInit {
     private _apiRest: ArticuloService,
   ) { }
 
-  ngOnInit() {
-    this.getArticulos();    
+  ngOnInit(): void {
+    this.getAllData();
   }
 
+  async getAllData() {
+    try {
+      this.datos$ = await this._apiRest.getData();
+      this.collectionSize = this.datos$.length;
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
+  }
 
-  async getArticulos() {
-    this.datos$ = await this._apiRest.getElementos();
-    this.collectionSize = this.datos$.length;
+  renderm(): void {
+    this.getAllData();
   }
 
   get articulos(): Iarticulo[] {

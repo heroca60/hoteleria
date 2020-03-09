@@ -20,6 +20,10 @@ import { ArticuloComponent } from './admin/articulo/articulo.component';
 import { CrearArticuloComponent } from './admin/articulo/crear-articulo/crear-articulo.component';
 import { ListarArticuloComponent } from './admin/articulo/listar-articulo/listar-articulo.component';
 import { ModificarHotelComponent } from './admin/hotel/modificar-hotel/modificar-hotel.component';
+import { CrearAdminComponent } from './admin/crear-admin/crear-admin.component';
+import { ListarAdminComponent } from './admin/listar-admin/listar-admin.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { ArticuloService } from './shared/servicios/articulo.service';
 
 
 @NgModule({
@@ -34,7 +38,10 @@ import { ModificarHotelComponent } from './admin/hotel/modificar-hotel/modificar
     ArticuloComponent,
     CrearArticuloComponent,
     ListarArticuloComponent,
-    ModificarHotelComponent
+    ModificarHotelComponent,
+    CrearAdminComponent,
+    ListarAdminComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +51,7 @@ import { ModificarHotelComponent } from './admin/hotel/modificar-hotel/modificar
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [HotelService],
+  providers: [HotelService, ArticuloService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

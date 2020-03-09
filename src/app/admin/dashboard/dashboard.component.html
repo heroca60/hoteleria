@@ -1,0 +1,81 @@
+<ngb-accordion #a="ngbAccordion" >
+  <ngb-panel id="custom-panel-1">
+    <ng-template ngbPanelHeader let-opened="opened">
+      <div class="d-flex align-items-center justify-content-between">
+        <h5 class="m-0">Administrar - {{nombre}} </h5>
+        <button ngbPanelToggle class="btn btn-link p-0">Información</button>
+      </div>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      Todas las opciones que se detallan a continuación surgirán efecto 
+      sobre {{nombre}} hotel, elemento seleccionado previamente.
+      <br>
+      Si por algún motivo su selección no es la deseada presione sobre el 
+      siguiente enlace y vuelva nuevamente a seleccionar su preferido.
+      <button class="btn btn-info">Volver</button>
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>
+<br>
+<div class="row row-cols-1 row-cols-md-4">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="../../../assets/detallegasto.jpeg" class="card-img-top" alt="xx">
+      <div class="card-body">
+        <h5 class="card-title, centrarElemento">Artículos</h5>
+        <p class="card-text" style="text-align: justify">
+          Administre correctamente el catálogo de artículos que formarán parte
+          del inventario de cada hotel.
+        </p>
+        <p class="centrarElemento">
+          <button class="btn btn-dark" routerLink="/articulo">Administrar</button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="../../../assets/detallegasto.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title, centrarElemento">Compras</h5>
+        <p class="card-text" style="text-align: justify">
+          Registrar las compras permitirá abastecer el inventario físico de
+          cada hotel registrado.
+        </p>
+        <p class="centrarElemento">
+          <button class="btn btn-dark">Administrar</button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="../../../assets/detallegasto.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title, centrarElemento">Inventario</h5>
+        <p class="card-text" style="text-align: justify">
+          A partir de las compras realizadas seleccione los elementos deseados
+          y conforme su inventario.
+        </p>
+        <p class="centrarElemento">
+          <button class="btn btn-dark">Administrar</button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="../../../assets/detallegasto.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title, centrarElemento">Habitaciones</h5>
+        <p class="card-text" style="text-align: justify">
+          A partir de las compras realizadas seleccione los elementos deseados
+          y conforme su inventario.
+        </p>
+        <p class="centrarElemento">
+          <button class="btn btn-dark">Administrar</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

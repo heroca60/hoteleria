@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Classhotel } from '../clases/classhotel';
 import { environment } from '../../../environments/environment';
 import { Ihotel } from '../interfaces/ihotel';
-
-
 
 @Injectable({
   providedIn: 'root'

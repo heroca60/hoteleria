@@ -1,0 +1,1047 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/Angular/hoteleria
+> git status -z -u
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s fb0e17744f97b9b71ca447fd57fde6e23a97ed5e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s fb0e17744f97b9b71ca447fd57fde6e23a97ed5e
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git show :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s fb0e17744f97b9b71ca447fd57fde6e23a97ed5e
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s fb0e17744f97b9b71ca447fd57fde6e23a97ed5e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/crear-admin/crear-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.html
+> git cat-file -s 2943f8e7ec2f270d0cc4b1aa98038bcad946f5c8
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/crear-admin/crear-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.html
+> git cat-file -s 2943f8e7ec2f270d0cc4b1aa98038bcad946f5c8
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/crear-admin/crear-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.html
+> git cat-file -s 2943f8e7ec2f270d0cc4b1aa98038bcad946f5c8
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.html
+> git cat-file -s 2943f8e7ec2f270d0cc4b1aa98038bcad946f5c8
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/crear-admin/crear-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.html
+> git cat-file -s 2943f8e7ec2f270d0cc4b1aa98038bcad946f5c8
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.html
+> git cat-file -s 2c54bc0eea770761449d25494d53d994e030731d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.ts
+> git cat-file -s 4d86957033d6656141d500f1c82f919d606b3d66
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git show :src/app/admin/admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.ts
+> git cat-file -s 4d86957033d6656141d500f1c82f919d606b3d66
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/crear-articulo/crear-articulo.component.ts
+> git cat-file -s 7840f0896e84cdde75808958c5c5b17116726a48
+> git show :src/app/admin/crear-admin/crear-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/crear-admin/crear-admin.component.ts
+> git cat-file -s 1f31bd856accb1517e7d95cdb135a17df07522f4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 5303bd8cd2f31d5ab825ca996f011cb1257b08df
+> git show :src/app/admin/admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.html
+> git cat-file -s d047f2f7217d32f62447e1cc89708052ec568ee4
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.ts
+> git cat-file -s 4d86957033d6656141d500f1c82f919d606b3d66
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git show :src/app/shared/servicios/hotel.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/hotel.service.ts
+> git cat-file -s 344e68f8b35d35e2c5ffae964382be7c563d56b5
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/shared/servicios/hotel.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/hotel.service.ts
+> git cat-file -s 344e68f8b35d35e2c5ffae964382be7c563d56b5
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/shared/servicios/hotel.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/hotel.service.ts
+> git cat-file -s 344e68f8b35d35e2c5ffae964382be7c563d56b5
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s 1cd0654d8ef4a9fe3e088c3c6b4af8c164995ad5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/listar-admin/listar-admin.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.html
+> git cat-file -s 29bd0b94a7a3b54828f9db9fcc6e20adfdaecb2e
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 8ca5469c52d2b4fc475f4a2d616278babf88eae4
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git show :src/app/shared/servicios/articulo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/articulo.service.ts
+> git cat-file -s 3163c07e96b4454d78644f817071c4c9220fd2e2
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 585727ea76227e127d97cac1540c456f94c007f1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s 1569c27d52c0cf1729f28d2669cb81884d6232cb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

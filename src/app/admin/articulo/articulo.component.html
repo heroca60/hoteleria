@@ -3,8 +3,11 @@
         <h3>Catálogo de artículos</h3>
     </div>
     <div class="card-body">
-        <app-crear-articulo></app-crear-articulo>
+        <app-crear-articulo (renderSon)="render($event)">
+        </app-crear-articulo>
         <br>
-        <app-listar-articulo></app-listar-articulo>
+        <br>
+        <app-listar-articulo>
+        </app-listar-articulo>
     </div>
 </div>
