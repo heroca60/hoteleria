@@ -1,30 +1,32 @@
 import { Component, OnInit } from '@angular/core';
-import { ArticuloService } from 'src/app/shared/servicios/articulo.service';
-import { Iarticulo } from '../../../shared/interfaces/iarticulo';
+import { Icompra } from '../../../shared/interfaces/icompra';
 import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
+import { CompraService } from 'src/app/shared/servicios/compra.service';
 
 @Component({
-  selector: 'app-listar-articulo',
-  templateUrl: './listar-articulo.component.html',
-  styleUrls: ['./listar-articulo.component.css']
+  selector: 'app-listar-compras',
+  templateUrl: './listar-compras.component.html',
+  styleUrls: ['./listar-compras.component.css']
 })
-export class ListarArticuloComponent implements OnInit {
-  datos$: Iarticulo[] = [];
+export class ListarComprasComponent implements OnInit {
+  datos$: Icompra[] = [];
   page = 1;
   pageSize = 4;
   collectionSize = 0;
+  hotel:string;
 
   //icono actualizar
-  ia: string;
+  ic: string;
 
   constructor(
-    private _apiRest: ArticuloService,
+    private _apiRest: CompraService,
     private _config: ConfiguracionService
   ) {
-    this.ia = this._config.iconoActualizar
+    this.ic = this._config.iconoCrear
+    this.hotel = this._config.hotel.nombrehotel
    }
 
-  ngOnInit(): void {
+   ngOnInit(): void {
     this.getAllData();
   }
 
@@ -41,9 +43,10 @@ export class ListarArticuloComponent implements OnInit {
     this.getAllData();
   }
 
-  get articulos(): Iarticulo[] {
+  get items(): Icompra[] {
     return this.datos$
       .map((idarticulo, i) => ({ id: i + 1, ...idarticulo }))
       .slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize);
   }
+
 }

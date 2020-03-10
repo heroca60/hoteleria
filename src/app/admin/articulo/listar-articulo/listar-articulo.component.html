@@ -3,14 +3,20 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Articulo</th>
-            <th scope="col">Descripcion</th>            
+            <th scope="col">Descripcion</th>
+            <th scope="col">Actualizar</th>
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let elemento of articulos">                        
+        <tr *ngFor="let elemento of articulos">
             <td>{{ elemento.idarticulo}}</td>
             <td>{{ elemento.nombrearticulo}}</td>
-            <td>{{ elemento.descripcionarticulo}}</td>                
+            <td>{{ elemento.descripcionarticulo}}</td>
+            <td>
+                <a title="Actualizar registro">
+                    <i class="material-icons">{{ia}}</i>
+                </a>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -18,10 +24,10 @@
 <div class="d-flex justify-content-between p-2">
     <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
     </ngb-pagination>
-  
+
     <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
-      <option [ngValue]="2">2 items per page</option>
-      <option [ngValue]="4">4 items per page</option>
-      <option [ngValue]="6">6 items per page</option>
+        <option [ngValue]="2">2 items per page</option>
+        <option [ngValue]="4">4 items per page</option>
+        <option [ngValue]="6">6 items per page</option>
     </select>
-  </div>
+</div>

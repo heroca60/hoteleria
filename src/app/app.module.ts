@@ -24,6 +24,10 @@ import { CrearAdminComponent } from './admin/crear-admin/crear-admin.component';
 import { ListarAdminComponent } from './admin/listar-admin/listar-admin.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ArticuloService } from './shared/servicios/articulo.service';
+import { ComprasComponent } from './admin/compras/compras.component';
+import { CrearComprasComponent } from './admin/compras/crear-compras/crear-compras.component';
+import { ListarComprasComponent } from './admin/compras/listar-compras/listar-compras.component';
+import { CompraService } from './shared/servicios/compra.service';
 
 
 @NgModule({
@@ -41,7 +45,10 @@ import { ArticuloService } from './shared/servicios/articulo.service';
     ModificarHotelComponent,
     CrearAdminComponent,
     ListarAdminComponent,
-    DashboardComponent
+    DashboardComponent,
+    ComprasComponent,
+    CrearComprasComponent,
+    ListarComprasComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +58,7 @@ import { ArticuloService } from './shared/servicios/articulo.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [HotelService, ArticuloService],
+  providers: [HotelService, ArticuloService, CompraService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

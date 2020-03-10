@@ -6,6 +6,7 @@ import {
   from
   '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -19,13 +20,15 @@ export class DashboardComponent implements OnInit {
   disabled = false;
 
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private _config: ConfiguracionService
   ) {
     this.nombre = this.route.snapshot.params.nombre;
     this.direccion = this.route.snapshot.params.direccion;
   }
 
   ngOnInit(): void {
+    
   }
 
 

@@ -5,6 +5,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { HotelComponent } from './admin/hotel/hotel.component';
 import { ArticuloComponent } from './admin/articulo/articulo.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { ComprasComponent } from './admin/compras/compras.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,10 @@ const routes: Routes = [
     path: 'admin/hotel', component: HotelComponent
   },
   {
-    path: 'articulo', component:ArticuloComponent
+    path: 'articulos', component: ArticuloComponent
+  },
+  {
+    path: 'compras', component: ComprasComponent
   },
   {
     path: '**', component: InicioComponent

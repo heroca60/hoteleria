@@ -1,0 +1,56 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Hotel</th>
+            <th scope="col">Proveedor</th>
+            <th scope="col">Factura serie</th>
+            <th scope="col">Factura número</th>
+            <th scope="col">Total</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Observaciones</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Detallar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of items">
+            <td>{{ item.idcompra}}</td>
+            <td>{{ hotel}}</td>
+            <td>{{ item.proveedorcompra}}</td>
+            <td>{{ item.seriecompra}}</td>
+            <td>{{ item.numerocompra}}</td>
+            <td>{{ item.totalcompra | currency:'Q '}}</td>
+            <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
+            <td>{{ item.observacioncompra}}</td>
+            <td *ngIf="item.estadocompra === 0; else Inactivo">
+                <p title="Pendiente detallar">
+                    <ngb-progressbar [showValue]="true" type="danger" [value]="50" [max]="100"></ngb-progressbar>
+                </p>
+            </td>
+            <ng-template #Inactivo>
+                <td>
+                    <p>
+                        <ngb-progressbar [showValue]="true" type="success" [value]="100" [max]="100"></ngb-progressbar>
+                    </p>
+                </td>
+            </ng-template>
+            <td>
+                <a title="Actualizar registro">
+                    <i class="material-icons">{{ic}}</i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!--PAGINACION DEL LISTADO-->
+<div class="d-flex justify-content-between p-2">
+    <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
+    </ngb-pagination>
+
+    <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
+        <option [ngValue]="2">2 items per page</option>
+        <option [ngValue]="4">4 items per page</option>
+        <option [ngValue]="6">6 items per page</option>
+    </select>
+</div>

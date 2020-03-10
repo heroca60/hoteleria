@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HotelService } from 'src/app/shared/servicios/hotel.service';
 import { Ihotel } from 'src/app/shared/interfaces/ihotel';
 import { Router } from '@angular/router';
+import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
 
 @Component({
   selector: 'app-listar-admin',
@@ -15,7 +16,9 @@ export class ListarAdminComponent implements OnInit {
   constructor(
     private _apiRest: HotelService,
     //variable de ruteo
-    private route: Router
+    private route: Router,
+    //servicio de configuración general
+    private _config: ConfiguracionService
   ) { }
 
   ngOnInit(): void {
@@ -29,15 +32,14 @@ export class ListarAdminComponent implements OnInit {
       alert('Ocurrió un error: ' + error);
     }
   }
-
+  
   render(): void {
     this.getAllData();
   }
 
-  dashboard(valhotel: Ihotel): void {
-    let id: number = valhotel.idhotel;
-    this.route.navigate(['/dashboard/', valhotel.nombrehotel]);
-    localStorage.setItem("checksum", id.toString());
+  dashboard(objeto: Ihotel): void {
+    this._config.hotel = objeto;
+    this.route.navigate(['/dashboard/', objeto.nombrehotel]);    
   }
 
 }

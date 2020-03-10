@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Ihotel } from '../interfaces/ihotel';
 
 @Injectable({
   providedIn: 'root'
@@ -10,5 +11,6 @@ export class ConfiguracionService {
   iconoLeer: string = "visibility"
   iconoActualizar: string = "settings"
   iconoEliminar: string = "delete"
+  hotel: Ihotel;
   constructor() { }
 }

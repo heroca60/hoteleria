@@ -30,12 +30,12 @@ export class ListarHotelComponent implements OnInit {
 
   constructor(
     private _apiRest: HotelService,
-    private _configBasic: ConfiguracionService,
+    private _config: ConfiguracionService,
   ) {
-    this.ic = this._configBasic.iconoCrear
-    this.il = this._configBasic.iconoLeer
-    this.ia = this._configBasic.iconoActualizar
-    this.ie = this._configBasic.iconoEliminar
+    this.ic = this._config.iconoCrear
+    this.il = this._config.iconoLeer
+    this.ia = this._config.iconoActualizar
+    this.ie = this._config.iconoEliminar
   }
 
   ngOnInit() {

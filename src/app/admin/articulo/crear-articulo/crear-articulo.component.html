@@ -1,4 +1,4 @@
-<button class="btn btn-outline-primary" (click)="open(content)">Nuevo artículo</button>
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Nuevo artículo</button>
 <ng-template #content let-modal>
     <div class="modal-header">
         <h4 class="modal-title" id="modal-basic-title">Nuevo registro</h4>
@@ -30,6 +30,6 @@
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
-        <button type="button" class="btn btn-danger" (click)="modal.close('Save click')">Salir</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
     </div>
 </ng-template>
