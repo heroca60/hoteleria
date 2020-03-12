@@ -28,6 +28,7 @@ import { ComprasComponent } from './admin/compras/compras.component';
 import { CrearComprasComponent } from './admin/compras/crear-compras/crear-compras.component';
 import { ListarComprasComponent } from './admin/compras/listar-compras/listar-compras.component';
 import { CompraService } from './shared/servicios/compra.service';
+import { DetalleService } from './shared/servicios/detalle.service';
 
 
 @NgModule({
@@ -48,7 +49,7 @@ import { CompraService } from './shared/servicios/compra.service';
     DashboardComponent,
     ComprasComponent,
     CrearComprasComponent,
-    ListarComprasComponent
+    ListarComprasComponent    
   ],
   imports: [
     BrowserModule,
@@ -58,7 +59,12 @@ import { CompraService } from './shared/servicios/compra.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [HotelService, ArticuloService, CompraService],
+  providers: [
+    HotelService, 
+    ArticuloService, 
+    CompraService,
+    DetalleService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

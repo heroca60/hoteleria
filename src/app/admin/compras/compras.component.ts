@@ -8,13 +8,15 @@ import { ListarComprasComponent } from './listar-compras/listar-compras.componen
 })
 export class ComprasComponent implements OnInit {
   @ViewChild(ListarComprasComponent) componenteListar: ListarComprasComponent;
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  render(val: string): void {    
+  render(val: string): void {
     this.componenteListar.renderm();
   }
+  
 
 }

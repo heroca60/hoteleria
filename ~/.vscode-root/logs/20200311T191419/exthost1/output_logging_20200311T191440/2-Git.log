@@ -1,0 +1,632 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/Angular/hoteleria
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/hotel/listar-hotel/listar-hotel.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/hotel/listar-hotel/listar-hotel.component.html
+> git cat-file -s 3bf0385fa3c44230f4ddabd01eadac6c862a0784
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/shared/servicios/configuracion.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/configuracion.service.ts
+> git cat-file -s 72fac31e06fa17728a5837be724f2f1ec620d6e8
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/styles.css
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/styles.css
+> git cat-file -s 2ea0ce875792b483c9dfdf33597588bf20c46d78
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git show :src/styles.css
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/styles.css
+> git cat-file -s 2ea0ce875792b483c9dfdf33597588bf20c46d78
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/styles.css
+> git cat-file -s 2ea0ce875792b483c9dfdf33597588bf20c46d78
+> git show :src/styles.css
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 3f6f4c35a7f515f63b7d499570c773c938941bb6
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/shared/servicios/configuracion.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/configuracion.service.ts
+> git cat-file -s 72fac31e06fa17728a5837be724f2f1ec620d6e8
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/listar-admin/listar-admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/listar-admin/listar-admin.component.ts
+> git cat-file -s 2875d82066012ff67a25a6b67f54e51ac10cfe32
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 6f48053fb6f19a2aab3021163bc025d1e075a498
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 1da6bc399e57e3291a360fe3f8fca6a27e2877b0
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 6b91746b2d18df9dbbc9cad3445062c20d2af58a
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

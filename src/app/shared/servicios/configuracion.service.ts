@@ -11,6 +11,7 @@ export class ConfiguracionService {
   iconoLeer: string = "visibility"
   iconoActualizar: string = "settings"
   iconoEliminar: string = "delete"
+  iconoListar: string = "list"
   hotel: Ihotel;
   constructor() { }
 }

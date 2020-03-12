@@ -1,56 +1,105 @@
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Hotel</th>
-            <th scope="col">Proveedor</th>
-            <th scope="col">Factura serie</th>
-            <th scope="col">Factura número</th>
-            <th scope="col">Total</th>
-            <th scope="col">Fecha</th>
-            <th scope="col">Observaciones</th>
-            <th scope="col">Estado</th>
-            <th scope="col">Detallar</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let item of items">
-            <td>{{ item.idcompra}}</td>
-            <td>{{ hotel}}</td>
-            <td>{{ item.proveedorcompra}}</td>
-            <td>{{ item.seriecompra}}</td>
-            <td>{{ item.numerocompra}}</td>
-            <td>{{ item.totalcompra | currency:'Q '}}</td>
-            <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
-            <td>{{ item.observacioncompra}}</td>
-            <td *ngIf="item.estadocompra === 0; else Inactivo">
-                <p title="Pendiente detallar">
-                    <ngb-progressbar [showValue]="true" type="danger" [value]="50" [max]="100"></ngb-progressbar>
-                </p>
-            </td>
-            <ng-template #Inactivo>
+<div class="table-responsive-lg">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Hotel</th>
+                <th scope="col">Proveedor</th>
+                <th scope="col">Factura serie</th>
+                <th scope="col">Factura número</th>
+                <th scope="col">Total</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Observaciones</th>
+                <th scope="col">Detalle</th>
+                <th scope="col">Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of items">
+                <td>{{ item.idcompra}}</td>
+                <td>{{ hotel}}</td>
+                <td>{{ item.proveedorcompra}}</td>
+                <td>{{ item.seriecompra}}</td>
+                <td>{{ item.numerocompra}}</td>
+                <td>{{ item.totalcompra | currency:'Q '}}</td>
+                <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
+                <td>{{ item.observacioncompra}}</td>
                 <td>
-                    <p>
-                        <ngb-progressbar [showValue]="true" type="success" [value]="100" [max]="100"></ngb-progressbar>
-                    </p>
+                    <a title="Detallar compra" (click)="openModalDetalle(content, hotel, item)">
+                        <i class="material-icons">{{ic}}</i>
+                    </a>
                 </td>
-            </ng-template>
-            <td>
-                <a title="Actualizar registro">
-                    <i class="material-icons">{{ic}}</i>
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<!--PAGINACION DEL LISTADO-->
-<div class="d-flex justify-content-between p-2">
-    <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
-    </ngb-pagination>
+                <td>
+                    <a title="Listar detalle">
+                        <i class="material-icons">{{il}}</i>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--PAGINACION DEL LISTADO-->
+    <div class="d-flex justify-content-between p-2">
+        <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
+        </ngb-pagination>
 
-    <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
-        <option [ngValue]="2">2 items per page</option>
-        <option [ngValue]="4">4 items per page</option>
-        <option [ngValue]="6">6 items per page</option>
-    </select>
+        <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
+            <option [ngValue]="2">2 items per page</option>
+            <option [ngValue]="4">4 items per page</option>
+            <option [ngValue]="6">6 items per page</option>
+        </select>
+    </div>
 </div>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Nuevo registro - Detalle de la compra</h4>
+        <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p>
+            <ngb-alert [type]="tipo" [dismissible]="false">
+                <strong>{{hotelSeleccionado}}</strong>
+                <br>
+                Compra:{{compraSeleccionada.idcompra}} - Serie:
+                {{compraSeleccionada.seriecompra}} Número: {{compraSeleccionada.numerocompra}}
+            </ngb-alert>
+        </p>
+        <form [formGroup]="datos">
+
+            <label for="idcompra">Artículo:</label>
+            <datalist id="articulos">
+                <option *ngFor="let item of datosA$" value={{item.idarticulo}}>
+                    {{item.nombrearticulo}} {{item.descripcionarticulo}}
+                </option>
+            </datalist>
+            <input type="number" class="form-control" id="idarticulo" placeholder="Seleccione..." list="articulos"
+                formControlName="idarticulo" required>
+            <small class="form-text text-muted">Campo obligatorio *</small>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cantidaddetalle">Cantidad:</label>
+                    <input type="number" class="form-control" id="cantidaddetalle" placeholder="10"
+                        formControlName="cantidaddetalle" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="preciodetalle">Precio unitario:</label>
+                    <input type="number" class="form-control" id="preciodetalle" placeholder="1550.75"
+                        formControlName="preciodetalle" step="0.01" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+            </div>
+            <!--Inicia el espacio de mensajes-->
+            <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+                {{ successMessage }}
+            </ngb-alert>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+    </div>
+</ng-template>
