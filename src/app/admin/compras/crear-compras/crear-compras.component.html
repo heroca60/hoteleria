@@ -50,8 +50,17 @@
             </ngb-alert>
         </form>
     </div>
-    <div class="modal-footer">
+    <div class="modal-footer" *ngIf="btnLoading else cargando">
         <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
         <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
     </div>
+    <ng-template #cargando>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Procesando...
+            </button>
+            <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+        </div>
+    </ng-template>
 </ng-template>

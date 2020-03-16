@@ -8,28 +8,13 @@
     </div>
     <div class="modal-body">
         <form [formGroup]="datos">
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="nombrehotel">Nombre del hotel:</label>
-                    <input type="text" class="form-control" id="nombrehotel" placeholder="Arboleda"
-                        formControlName="nombrehotel" required>
-                    <small class="form-text text-muted">Campo obligatorio *</small>
-
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="representantelegal">Representante legal:</label>
-                    <input type="text" class="form-control" id="representantelegal" placeholder="Mateo Flores"
-                        formControlName="representantehotel" required>
-                    <small class="form-text text-muted">Campo obligatorio *</small>
-                </div>
-            </div>
             <div class="form-group">
-                <label for="direccion">Dirección:</label>
-                <input type="text" class="form-control" id="direccion" placeholder="CA-10 Carretera a Esquipulas"
-                    formControlName="direccionhotel" required>
+                <label for="nombremodulo">Nombre del módulo:</label>
+                <input type="text" class="form-control" id="nombremodulo" placeholder="A1"
+                    formControlName="nombremodulo" required>
                 <small class="form-text text-muted">Campo obligatorio *</small>
-            </div>            
-          
+            </div>
+
             <!--Inicia el espacio de mensajes-->
             <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
                 {{ successMessage }}

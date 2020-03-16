@@ -9,6 +9,7 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { debounceTime } from 'rxjs/operators';
 import { ArticuloService } from 'src/app/shared/servicios/articulo.service';
 import { Iarticulo } from 'src/app/shared/interfaces/iarticulo';
+import { Idetalle } from 'src/app/shared/interfaces/idetalle';
 
 @Component({
   selector: 'app-listar-compras',
@@ -19,6 +20,7 @@ import { Iarticulo } from 'src/app/shared/interfaces/iarticulo';
 export class ListarComprasComponent implements OnInit {
   datos$: Icompra[] = [];
   datosA$: Iarticulo[] = [];
+  datosD$: Idetalle[] = [];
 
   page = 1;
   pageSize = 4;
@@ -27,11 +29,13 @@ export class ListarComprasComponent implements OnInit {
 
   hotelSeleccionado: string;
   compraSeleccionada: Icompra;
-  
+
   //icono actualizar
   ic: string;
   //icono listar
   il: string;
+  //icono eliminar
+  ie: string;
 
   public isCollapsed = true;
   private _success = new Subject<string>();
@@ -50,8 +54,12 @@ export class ListarComprasComponent implements OnInit {
 
   //Datos del formulario
   datos: any;
-
+  /*variable para la alert de info donde se carga la 
+  información de la compra seleccionada*/
   tipo: string = "info";
+
+  //variable de boton de carga
+  btnLoading: boolean = true;
 
 
   constructor(
@@ -69,7 +77,8 @@ export class ListarComprasComponent implements OnInit {
   ) {
     this.ic = this._config.iconoCrear
     this.il = this._config.iconoListar
-    this.hotel = this._config.hotel.nombrehotel    
+    this.ie = this._config.iconoEliminar
+    this.hotel = this._config.hotel.nombrehotel
 
     this.datos = this.formBuilder.group({
       idcompra: ['', Validators.required],
@@ -102,8 +111,16 @@ export class ListarComprasComponent implements OnInit {
 
   async getAllDataArticulos() {
     try {
-      this.datosA$ = await this._apiRestArticulo.getData();
-      this.collectionSize = this.datos$.length;
+      this.datosA$ = await this._apiRestArticulo.getData();      
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
+  }
+
+
+  async getDetalleCompra(id: number) {
+    try {
+      this.datosD$ = await this._apiRestDetalle.getDataId(id);      
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -133,6 +150,20 @@ export class ListarComprasComponent implements OnInit {
   }
 
   //Modal
+  openModalListadoDetalle(content: any, hotel: string, compra: Icompra) {
+    try {
+      this.getDetalleCompra(compra.idcompra);
+    } catch (error) {
+
+    }
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+
+  //Modal
   private getDismissReason(reason: any): string {
     if (reason === ModalDismissReasons.ESC) {
       return 'by pressing ESC';
@@ -143,15 +174,18 @@ export class ListarComprasComponent implements OnInit {
     }
   }
 
-  //post articulo con async/await
+  //post Detalle de compra con async/await
   async nuevoElemento() {
     if (this.datos.valid) {
-      try {        
+      try {
+        this.btnLoading = false;
         await this._apiRestDetalle.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
+        this.btnLoading = true;
       } catch (error) {
+        this.btnLoading = true;
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);
       }

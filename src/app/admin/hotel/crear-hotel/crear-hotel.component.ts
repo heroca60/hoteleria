@@ -27,6 +27,10 @@ export class CrearHotelComponent implements OnInit {
 
   //Datos del formulario
   datos: any;
+
+  //Control del boton carga...
+  btnLoading: boolean = true;
+  
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -81,11 +85,14 @@ export class CrearHotelComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
+        this.btnLoading = false;     
         await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
+        this.btnLoading = true;
       } catch (error) {
+        this.btnLoading = true;
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);
       }

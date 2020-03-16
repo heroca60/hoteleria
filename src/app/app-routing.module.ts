@@ -6,6 +6,7 @@ import { HotelComponent } from './admin/hotel/hotel.component';
 import { ArticuloComponent } from './admin/articulo/articulo.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ComprasComponent } from './admin/compras/compras.component';
+import { ModuloComponent } from './admin/modulo/modulo.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,9 @@ const routes: Routes = [
   },  
   {
     path: 'compras', component: ComprasComponent
+  },
+  {
+    path: 'modulos', component: ModuloComponent
   },
   {
     path: '**', component: InicioComponent

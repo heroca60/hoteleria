@@ -29,6 +29,9 @@ import { CrearComprasComponent } from './admin/compras/crear-compras/crear-compr
 import { ListarComprasComponent } from './admin/compras/listar-compras/listar-compras.component';
 import { CompraService } from './shared/servicios/compra.service';
 import { DetalleService } from './shared/servicios/detalle.service';
+import { ModuloComponent } from './admin/modulo/modulo.component';
+import { CrearModuloComponent } from './admin/modulo/crear-modulo/crear-modulo.component';
+import { ListarModuloComponent } from './admin/modulo/listar-modulo/listar-modulo.component';
 
 
 @NgModule({
@@ -49,7 +52,10 @@ import { DetalleService } from './shared/servicios/detalle.service';
     DashboardComponent,
     ComprasComponent,
     CrearComprasComponent,
-    ListarComprasComponent    
+    ListarComprasComponent,
+    ModuloComponent,
+    CrearModuloComponent,
+    ListarModuloComponent    
   ],
   imports: [
     BrowserModule,

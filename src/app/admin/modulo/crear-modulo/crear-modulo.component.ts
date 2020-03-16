@@ -1,23 +1,18 @@
-import {
-  Component,
-  OnInit,
-  Output,
-  EventEmitter
-}
-  from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Subject } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
-import { CompraService } from 'src/app/shared/servicios/compra.service';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { debounceTime } from 'rxjs/operators';
-import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModuloService } from 'src/app/shared/servicios/modulo.service';
 import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
 
+
 @Component({
-  selector: 'app-crear-compras',
-  templateUrl: './crear-compras.component.html',
-  styleUrls: ['./crear-compras.component.css']
+  selector: 'app-crear-modulo',
+  templateUrl: './crear-modulo.component.html',
+  styleUrls: ['./crear-modulo.component.css']
 })
-export class CrearComprasComponent implements OnInit {
+export class CrearModuloComponent implements OnInit {
   private _success = new Subject<string>();
   //*************** */
   relay: any;
@@ -39,27 +34,21 @@ export class CrearComprasComponent implements OnInit {
 
   //Control del boton carga...
   btnLoading: boolean = true;
-
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
     //inyectando apiREST
-    private _apiRest: CompraService,
+    private _apiRest: ModuloService,
     //modal
     private modalService: NgbModal,
-    //configuracion general
+    //configuracion
+    //servicio de configuración general
     private _config: ConfiguracionService
   ) {
     //Formulario
     this.datos = this.formBuilder.group({
       idhotel: [this._config.hotel.idhotel],
-      proveedorcompra: ['', Validators.required],
-      totalcompra: ['', Validators.required],
-      fechacompra: ['', Validators.required],
-      observacioncompra: [''],
-      seriecompra: ['', Validators.required],
-      numerocompra: ['', Validators.required],
-      estadocompra: [0]
+      nombremodulo: ['', Validators.required]
     })
   }
 
@@ -70,7 +59,8 @@ export class CrearComprasComponent implements OnInit {
     this._success.pipe(
       debounceTime(5000)
     ).subscribe(() => this.successMessage = null);
-    //Fin del manejo de las alertas del formulario 
+    //Fin del manejo de las alertas del formulario
+
   }
 
   //Modal
@@ -97,7 +87,7 @@ export class CrearComprasComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
-        this.btnLoading = false;        
+        this.btnLoading = false;
         await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
@@ -106,11 +96,11 @@ export class CrearComprasComponent implements OnInit {
         this.renderSon.emit("true");
         this.btnLoading = true;
       } catch (error) {
-        this.btnLoading = true;
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);
       }
     } else {
+      this.btnLoading = true;
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
