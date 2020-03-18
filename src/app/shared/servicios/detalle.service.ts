@@ -22,16 +22,11 @@ export class DetalleService {
 
 
   //***********GET Async/Away****************** 
-  async getData() {
-    return await this._http.get<Idetalle[]>(environment.apiRest + 'detalles').toPromise();
+  async getData(idcompra: number) {
+    return await this._http.get<Idetalle[]>
+      (environment.apiRest + 'detalles?filter={"where":{"idcompra":' + idcompra + '}}').toPromise();
   }
-  //************************************************
-
-  //***********GET Async/Away****************** 
-  async getDataId(id: number) {
-    return await this._http.get<Idetalle[]>(environment.apiRest + 'detalles' + id).toPromise();
-  }
-  //************************************************
+  //************************************************  
 
   //***************POST con async/await*************************
   async postData(data: Idetalle) {

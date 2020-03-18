@@ -14,7 +14,8 @@ const routes: Routes = [
     path: 'admin', component: AdminComponent
   },
   {
-    path: 'dashboard/:nombre', component: DashboardComponent
+    //path: 'dashboard/:nombre', component: DashboardComponent
+    path: 'dashboard', component: DashboardComponent
   },
   {
     path: 'admin/hotel', component: HotelComponent

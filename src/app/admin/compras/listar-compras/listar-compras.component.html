@@ -3,10 +3,9 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Hotel</th>
                 <th scope="col">Proveedor</th>
-                <th scope="col">Factura serie</th>
-                <th scope="col">Factura número</th>
+                <th scope="col">Serie</th>
+                <th scope="col">Número</th>
                 <th scope="col">Total</th>
                 <th scope="col">Fecha</th>
                 <th scope="col">Observaciones</th>
@@ -17,7 +16,6 @@
         <tbody>
             <tr *ngFor="let item of items">
                 <td>{{ item.idcompra}}</td>
-                <td>{{ hotel}}</td>
                 <td>{{ item.proveedorcompra}}</td>
                 <td>{{ item.seriecompra}}</td>
                 <td>{{ item.numerocompra}}</td>
@@ -131,9 +129,9 @@
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Compra</th>                        
+                        <th scope="col">Compra</th>
                         <th scope="col">Articulo</th>
-                        <th scope="col">Precio</th>                        
+                        <th scope="col">Precio</th>
                         <th scope="col">Cantidad</th>
                         <th scope="col">Sub total</th>
                         <th scope="col">Eliminar</th>
@@ -144,25 +142,33 @@
                         <td>{{ item.iddetalle}}</td>
                         <td>{{ item.idcompra}}</td>
                         <td>{{ item.idarticulo}}</td>
-                        <td>{{ item.preciodetalle}}</td>
+                        <td>{{ item.preciodetalle | currency:'Q '}}</td>
                         <td>{{ item.cantidaddetalle}}</td>
-                        <td>{{ item.preciodetalle * item.cantidaddetalle}}</td>
+                        <td>{{ item.preciodetalle * item.cantidaddetalle | currency:'Q '}}</td>
                         <td>
-                            <a title="Eliminar registro"
-                                (click)="openModalListadoDetalle(contentListadoDetalle, hotel, item)">
-                                <i class="material-icons">{{il}}</i>
+                            <a title="Eliminar registro">
+                                <i class="material-icons">{{ie}}</i>
                             </a>
-                        </td>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td>{{total | currency: 'Q '}}</td>
+                        <td></td>
                     </tr>
                 </tbody>
-            </table>        
+            </table>
         </div>
         <!--Inicia el espacio de mensajes-->
-    <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
-        {{ successMessage }}
-    </ngb-alert>
+        <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+            {{ successMessage }}
+        </ngb-alert>
     </div>
-        
+
     <div class="modal-footer">
         <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
     </div>

@@ -39,7 +39,8 @@ export class ListarAdminComponent implements OnInit {
 
   dashboard(objeto: Ihotel): void {
     this._config.hotel = objeto;
-    this.route.navigate(['/dashboard/', objeto.nombrehotel]);    
+    //this.route.navigate(['/dashboard/', objeto.nombrehotel]);    
+    this.route.navigate(['/dashboard']);    
   }
 
 }

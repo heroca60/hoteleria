@@ -61,6 +61,7 @@ export class ListarComprasComponent implements OnInit {
   //variable de boton de carga
   btnLoading: boolean = true;
 
+  total: number = 0.00;
 
   constructor(
     private _apiRest: CompraService,
@@ -111,7 +112,7 @@ export class ListarComprasComponent implements OnInit {
 
   async getAllDataArticulos() {
     try {
-      this.datosA$ = await this._apiRestArticulo.getData();      
+      this.datosA$ = await this._apiRestArticulo.getData();
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -120,7 +121,11 @@ export class ListarComprasComponent implements OnInit {
 
   async getDetalleCompra(id: number) {
     try {
-      this.datosD$ = await this._apiRestDetalle.getDataId(id);      
+      this.datosD$ = await this._apiRestDetalle.getData(id);
+      this.total = 0.00;
+      this.datosD$.forEach(item => {
+        this.total += (item.cantidaddetalle * item.preciodetalle);
+      });
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -154,9 +159,9 @@ export class ListarComprasComponent implements OnInit {
     try {
       this.getDetalleCompra(compra.idcompra);
     } catch (error) {
-
+      alert(error);
     }
-    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg', scrollable: true }).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -182,7 +187,12 @@ export class ListarComprasComponent implements OnInit {
         await this._apiRestDetalle.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
-        this.datos.reset();
+        /*Limpiando campos del form reactivo de forma manual
+        porque se necesita seguir manteniendo el id compra para realizar
+        constantes detalles... */
+        this.datos.controls['idarticulo'].setValue('');
+        this.datos.controls['cantidaddetalle'].setValue('');
+        this.datos.controls['preciodetalle'].setValue('');
         this.btnLoading = true;
       } catch (error) {
         this.btnLoading = true;

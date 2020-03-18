@@ -1,0 +1,104 @@
+[2020-03-12 17:54:39.363] [exthost] [info] extension host started
+[2020-03-12 17:54:39.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-12 17:54:39.390] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-12 17:54:39.435] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-12 17:54:39.435] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-12 17:54:39.606] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-12 17:54:39.607] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-12 17:54:39.811] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-12 17:54:39.811] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-12 17:54:39.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-12 17:54:39.895] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-12 17:54:39.933] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-12 17:54:39.933] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-12 17:54:39.954] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-03-12 17:54:39.955] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/client/out/extension
+[2020-03-12 17:54:40.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-03-12 17:54:40.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-03-12 17:54:40.221] [exthost] [info] eager extensions activated
+[2020-03-12 18:00:08.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-12 18:00:08.624] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-03-12 18:06:12.394] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-03-12 18:06:12.394] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-03-12 18:06:13.512] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2020-03-12 18:06:13.512] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-03-12 18:06:35.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-12 18:06:35.135] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-03-12 18:06:35.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-12 18:06:35.229] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-03-12 18:06:37.751] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-03-12 18:07:00.590] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-12 18:07:00.592] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-12 18:13:16.794] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-12 18:13:16.794] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-12 18:42:14.559] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-12 18:42:14.560] [exthost] [error] Error: <semantic> TypeScript Server Error (3.7.5)
+this.fileExistsWithCache is not a function
+TypeError: this.fileExistsWithCache is not a function
+    at Object.Project.fileExists (tsserver.js:134638:29)
+    at Object.ConfiguredProject.fileExists (tsserver.js:135753:49)
+    at tryGetModuleNameAsNodeModule (tsserver.js:99539:43)
+    at tsserver.js:99360:88
+    at Object.mapDefined (tsserver.js:565:30)
+    at Object.getModuleSpecifiers (tsserver.js:99360:29)
+    at getSpecifierForModuleSymbol (tsserver.js:37114:62)
+    at tsserver.js:36980:39
+    at Array.map (<anonymous>)
+    at getSymbolChain (tsserver.js:36978:58)
+    at lookupSymbolChainWorker (tsserver.js:36962:52)
+    at lookupSymbolChain (tsserver.js:36955:24)
+    at symbolToTypeNode (tsserver.js:37121:29)
+    at typeReferenceToTypeNode (tsserver.js:36621:40)
+    at typeToTypeNodeHelper (tsserver.js:36355:95)
+    at tsserver.js:36183:106
+    at withContext (tsserver.js:36228:37)
+    at Object.typeToTypeNode (tsserver.js:36183:28)
+    at Object.getTypeNodeIfAccessible (tsserver.js:104249:27)
+    at annotate (tsserver.js:121367:31)
+    at annotateVariableDeclaration (tsserver.js:121303:17)
+    at doChange (tsserver.js:121233:25)
+    at tsserver.js:121172:109
+    at Function.ChangeTracker.with (tsserver.js:119390:17)
+    at Object.getCodeActions (tsserver.js:121172:64)
+    at tsserver.js:120431:121
+    at Object.flatMap (tsserver.js:468:25)
+    at Object.getFixes (tsserver.js:120431:23)
+    at tsserver.js:131114:35
+    at Object.flatMap (tsserver.js:468:25)
+    at Proxy.getCodeFixesAtPosition (tsserver.js:131112:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:140767:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:139552:61)
+    at tsserver.js:140960:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:140951:28)
+    at IOSession.Session.executeCommand (tsserver.js:140960:33)
+    at IOSession.Session.onMessage (tsserver.js:140983:35)
+    at Interface.<anonymous> (tsserver.js:142298:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49149)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:213785)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212703)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212179
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219256)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:218904)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-12 18:43:34.556] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-12 18:43:34.556] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764

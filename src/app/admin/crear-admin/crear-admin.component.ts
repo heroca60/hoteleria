@@ -36,6 +36,9 @@ export class CrearAdminComponent implements OnInit {
   //Evento para el padre... post exitoso render del list.
   @Output() renderSon = new EventEmitter<string>();
 
+  //Control del boton carga...
+  btnLoading: boolean = true;
+
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -91,13 +94,16 @@ export class CrearAdminComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
+        this.btnLoading = false;
         await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
         //Enviado mensaje de actualización del listado
         this.renderSon.emit("true");
+        this.btnLoading = true;
       } catch (error) {
+        this.btnLoading = true;
         this.messageType = "danger";
         this._success.next("Ocurrió un error: " + error);
       }

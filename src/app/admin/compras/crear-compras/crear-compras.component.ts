@@ -97,7 +97,7 @@ export class CrearComprasComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
-        this.btnLoading = false;        
+        this.btnLoading = false;
         await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");

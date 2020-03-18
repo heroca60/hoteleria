@@ -42,7 +42,8 @@
             </div>
             <div class="form-group">
                 <label for="observacioncompra">Observaciones</label>
-                <textarea class="form-control" formControlName="observacioncompra" id="observacioncompra" rows="3"></textarea>
+                <textarea class="form-control" formControlName="observacioncompra" id="observacioncompra"
+                    rows="3"></textarea>
             </div>
             <!--Inicia el espacio de mensajes-->
             <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">

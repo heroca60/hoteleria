@@ -13,12 +13,9 @@
                 <!-- Step 4: Close the menu when a link is clicked. -->
                 <a class="nav-link" routerLink="admin" (click)="isMenuCollapsed = true">Administración</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Examples</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">About</a>
-            </li>
+            <li class="nav-item" >
+                <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Dashboard</a>
+            </li>            
         </ul>
     </div>
 </nav>
