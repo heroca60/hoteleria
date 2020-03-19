@@ -1,25 +1,25 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Subject } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
+import { ServicioService } from 'src/app/shared/servicios/servicio.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { debounceTime } from 'rxjs/operators';
-import { ModuloService } from 'src/app/shared/servicios/modulo.service';
-import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
-
 
 @Component({
-  selector: 'app-crear-modulo',
-  templateUrl: './crear-modulo.component.html',
-  styleUrls: ['./crear-modulo.component.css']
+  selector: 'app-crear-servicio',
+  templateUrl: './crear-servicio.component.html',
+  styleUrls: ['./crear-servicio.component.css']
 })
-export class CrearModuloComponent implements OnInit {
+export class CrearServicioComponent implements OnInit {
+  public isCollapsed = true;
   private _success = new Subject<string>();
+
   //*************** */
   relay: any;
   response: any;
 
   //Variables para el mensaje de transacción
-  staticAlertClosed = true;
+  staticAlertClosed = false;
   successMessage: string;
   messageType: string;
 
@@ -34,21 +34,18 @@ export class CrearModuloComponent implements OnInit {
 
   //Control del boton carga...
   btnLoading: boolean = true;
+
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
     //inyectando apiREST
-    private _apiRest: ModuloService,
+    private _apiRest: ServicioService,
     //modal
-    private modalService: NgbModal,
-    //configuracion
-    //servicio de configuración general
-    private _config: ConfiguracionService
+    private modalService: NgbModal
   ) {
-    //Formulario
     this.datos = this.formBuilder.group({
-      idhotel: [this._config.hotel.idhotel],
-      nombremodulo: ['', Validators.required]
+      nombreservicio: ['', Validators.required],
+      costoextraservicio: ['', Validators.required]
     })
   }
 
@@ -60,7 +57,6 @@ export class CrearModuloComponent implements OnInit {
       debounceTime(5000)
     ).subscribe(() => this.successMessage = null);
     //Fin del manejo de las alertas del formulario
-
   }
 
   //Modal
@@ -83,12 +79,12 @@ export class CrearModuloComponent implements OnInit {
     }
   }
 
-  //post hotel con async/await
+  //post articulo con async/await
   async nuevoElemento() {
     if (this.datos.valid) {
-      try {        
+      try {
         this.btnLoading = false;
-        await this._apiRest.postData(this.datos.value);
+        await this._apiRest.postElemento(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
@@ -101,11 +97,8 @@ export class CrearModuloComponent implements OnInit {
         this._success.next("Ocurrió un error: " + error);
       }
     } else {
-      this.btnLoading = true;
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
-
   }
-
 }

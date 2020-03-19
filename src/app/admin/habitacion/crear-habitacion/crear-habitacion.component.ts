@@ -1,25 +1,32 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { Subject, Observable, merge } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
-import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { debounceTime } from 'rxjs/operators';
+import { HabitacionService } from 'src/app/shared/servicios/habitacion.service';
+import { NgbModal, ModalDismissReasons, NgbTypeahead } from '@ng-bootstrap/ng-bootstrap';
+import { debounceTime, distinctUntilChanged, filter, map } from 'rxjs/operators';
 import { ModuloService } from 'src/app/shared/servicios/modulo.service';
-import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
-
+import { Imodulo } from 'src/app/shared/interfaces/imodulo';
+import { Itipo } from 'src/app/shared/interfaces/itipo';
+import { TipoService } from 'src/app/shared/servicios/tipo.service';
 
 @Component({
-  selector: 'app-crear-modulo',
-  templateUrl: './crear-modulo.component.html',
-  styleUrls: ['./crear-modulo.component.css']
+  selector: 'app-crear-habitacion',
+  templateUrl: './crear-habitacion.component.html',
+  styleUrls: ['./crear-habitacion.component.css']
 })
-export class CrearModuloComponent implements OnInit {
+export class CrearHabitacionComponent implements OnInit {
+  modulos: Imodulo[] = [];
+  tipos: Itipo[] = [];
+
+  public isCollapsed = true;
   private _success = new Subject<string>();
+
   //*************** */
   relay: any;
   response: any;
 
   //Variables para el mensaje de transacción
-  staticAlertClosed = true;
+  staticAlertClosed = false;
   successMessage: string;
   messageType: string;
 
@@ -30,29 +37,31 @@ export class CrearModuloComponent implements OnInit {
   datos: any;
 
   //Evento para el padre... post exitoso render del list.
-  @Output() renderSon = new EventEmitter<string>();
+  //@Output() renderSon = new EventEmitter<string>();
 
   //Control del boton carga...
   btnLoading: boolean = true;
-  constructor(
-    //inyectando formulario reactivo para validación y captura de datos
+
+  constructor(  //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
     //inyectando apiREST
-    private _apiRest: ModuloService,
+    private _apiRest: HabitacionService,
+    //obteniendo los modulos del hotel
+    private _modulos: ModuloService,
+    //obtenuendo los tipos de habitaciones
+    private _tipos: TipoService,
     //modal
-    private modalService: NgbModal,
-    //configuracion
-    //servicio de configuración general
-    private _config: ConfiguracionService
+    private modalService: NgbModal
   ) {
-    //Formulario
     this.datos = this.formBuilder.group({
-      idhotel: [this._config.hotel.idhotel],
-      nombremodulo: ['', Validators.required]
+      idmodulo: ['', Validators.required],
+      idtipo: ['', Validators.required]
     })
   }
 
   ngOnInit(): void {
+    this.getAllModulos();
+
     //Manejo de las alertas del formulario
     setTimeout(() => this.staticAlertClosed = true, 20000);
     this._success.subscribe((message) => this.successMessage = message);
@@ -60,7 +69,24 @@ export class CrearModuloComponent implements OnInit {
       debounceTime(5000)
     ).subscribe(() => this.successMessage = null);
     //Fin del manejo de las alertas del formulario
+  }
 
+  async getAllModulos() {
+    try {
+      //obtenemos todos los modulos del hotel
+      this.modulos = await this._modulos.getData();      
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
+  }
+
+  async getAllTipos() {
+    try {
+      //obtenemos todos los modulos del hotel
+      this.tipos = await this._tipos.getData();      
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
   }
 
   //Modal
@@ -83,17 +109,17 @@ export class CrearModuloComponent implements OnInit {
     }
   }
 
-  //post hotel con async/await
+  //post articulo con async/await
   async nuevoElemento() {
     if (this.datos.valid) {
-      try {        
+      try {
         this.btnLoading = false;
-        await this._apiRest.postData(this.datos.value);
+        await this._apiRest.postElemento(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
         //Enviado mensaje de actualización del listado
-        this.renderSon.emit("true");
+        //this.renderSon.emit("true");
         this.btnLoading = true;
       } catch (error) {
         this.btnLoading = true;
@@ -101,11 +127,9 @@ export class CrearModuloComponent implements OnInit {
         this._success.next("Ocurrió un error: " + error);
       }
     } else {
-      this.btnLoading = true;
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
-
   }
 
 }

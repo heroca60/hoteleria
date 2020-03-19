@@ -1,18 +1,22 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Subject } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
+import { HabitacionservicioService } from 'src/app/shared/servicios/habitacionservicio.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { debounceTime } from 'rxjs/operators';
-import { ModuloService } from 'src/app/shared/servicios/modulo.service';
 import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
-
+import { debounceTime } from 'rxjs/operators';
+import { TipoService } from 'src/app/shared/servicios/tipo.service';
+import { Itipo } from 'src/app/shared/interfaces/itipo';
 
 @Component({
-  selector: 'app-crear-modulo',
-  templateUrl: './crear-modulo.component.html',
-  styleUrls: ['./crear-modulo.component.css']
+  selector: 'app-crear-habitacionservicio',
+  templateUrl: './crear-habitacionservicio.component.html',
+  styleUrls: ['./crear-habitacionservicio.component.css']
 })
-export class CrearModuloComponent implements OnInit {
+export class CrearHabitacionservicioComponent implements OnInit {
+  //Lista de tipos de habitaciones
+  items: Itipo[] = [];
+
   private _success = new Subject<string>();
   //*************** */
   relay: any;
@@ -38,7 +42,9 @@ export class CrearModuloComponent implements OnInit {
     //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
     //inyectando apiREST
-    private _apiRest: ModuloService,
+    private _apiRest: HabitacionservicioService,
+    //inyectado el service de tipo de habitacion
+    private _tipos: TipoService,
     //modal
     private modalService: NgbModal,
     //configuracion
@@ -48,7 +54,7 @@ export class CrearModuloComponent implements OnInit {
     //Formulario
     this.datos = this.formBuilder.group({
       idhotel: [this._config.hotel.idhotel],
-      nombremodulo: ['', Validators.required]
+      idtipo: ['', Validators.required]
     })
   }
 
@@ -61,6 +67,16 @@ export class CrearModuloComponent implements OnInit {
     ).subscribe(() => this.successMessage = null);
     //Fin del manejo de las alertas del formulario
 
+    //obteniendo todos los tipos para el datalist
+    this.getAllTipos();
+  }
+
+  async getAllTipos() {
+    try {
+      this.items = await this._tipos.getData();      
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
   }
 
   //Modal
@@ -86,7 +102,8 @@ export class CrearModuloComponent implements OnInit {
   //post hotel con async/await
   async nuevoElemento() {
     if (this.datos.valid) {
-      try {        
+      try {
+        console.log(this.datos.value);
         this.btnLoading = false;
         await this._apiRest.postData(this.datos.value);
         this.messageType = "success";

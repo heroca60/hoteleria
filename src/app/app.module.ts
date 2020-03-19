@@ -32,6 +32,18 @@ import { DetalleService } from './shared/servicios/detalle.service';
 import { ModuloComponent } from './admin/modulo/modulo.component';
 import { CrearModuloComponent } from './admin/modulo/crear-modulo/crear-modulo.component';
 import { ListarModuloComponent } from './admin/modulo/listar-modulo/listar-modulo.component';
+import { TipoComponent } from './admin/tipo/tipo.component';
+import { CrearTipoComponent } from './admin/tipo/crear-tipo/crear-tipo.component';
+import { ListarTipoComponent } from './admin/tipo/listar-tipo/listar-tipo.component';
+import { HabitacionComponent } from './admin/habitacion/habitacion.component';
+import { CrearHabitacionComponent } from './admin/habitacion/crear-habitacion/crear-habitacion.component';
+import { ListarHabitacionComponent } from './admin/habitacion/listar-habitacion/listar-habitacion.component';
+import { ServicioComponent } from './admin/servicio/servicio.component';
+import { CrearServicioComponent } from './admin/servicio/crear-servicio/crear-servicio.component';
+import { ListarServicioComponent } from './admin/servicio/listar-servicio/listar-servicio.component';
+import { HabitacionservicioComponent } from './admin/habitacionservicio/habitacionservicio.component';
+import { CrearHabitacionservicioComponent } from './admin/habitacionservicio/crear-habitacionservicio/crear-habitacionservicio.component';
+import { ListarHabitacionservicioComponent } from './admin/habitacionservicio/listar-habitacionservicio/listar-habitacionservicio.component';
 
 
 @NgModule({
@@ -55,7 +67,19 @@ import { ListarModuloComponent } from './admin/modulo/listar-modulo/listar-modul
     ListarComprasComponent,
     ModuloComponent,
     CrearModuloComponent,
-    ListarModuloComponent    
+    ListarModuloComponent,
+    TipoComponent,
+    CrearTipoComponent,
+    ListarTipoComponent,
+    HabitacionComponent,
+    CrearHabitacionComponent,
+    ListarHabitacionComponent,
+    ServicioComponent,
+    CrearServicioComponent,
+    ListarServicioComponent,
+    HabitacionservicioComponent,
+    CrearHabitacionservicioComponent,
+    ListarHabitacionservicioComponent    
   ],
   imports: [
     BrowserModule,

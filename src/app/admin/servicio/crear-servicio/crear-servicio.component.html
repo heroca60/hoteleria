@@ -1,0 +1,45 @@
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Nuevo registro</button>
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Nuevo registro</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form [formGroup]="datos">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombreservicio">Nombre del servicio:</label>
+                    <input type="text" class="form-control" id="nombreservicio" placeholder="Internet, Cable"
+                        formControlName="nombreservicio" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="costoextraservicio">Costo extra:</label>
+                    <input type="number"  step="0.01" class="form-control" id="costoextraservicio" placeholder="50.00"
+                        formControlName="costoextraservicio" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+            </div>
+            <!--Inicia el espacio de mensajes-->
+            <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+                {{ successMessage }}
+            </ngb-alert>
+        </form>
+    </div>
+    <div class="modal-footer" *ngIf="btnLoading else cargando">
+        <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+    </div>
+
+    <ng-template #cargando>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Procesando...
+            </button>
+            <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+        </div>
+    </ng-template>
+</ng-template>

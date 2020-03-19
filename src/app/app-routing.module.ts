@@ -7,6 +7,10 @@ import { ArticuloComponent } from './admin/articulo/articulo.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ComprasComponent } from './admin/compras/compras.component';
 import { ModuloComponent } from './admin/modulo/modulo.component';
+import { TipoComponent } from './admin/tipo/tipo.component';
+import { HabitacionComponent } from './admin/habitacion/habitacion.component';
+import { ServicioComponent } from './admin/servicio/servicio.component';
+import { HabitacionservicioComponent } from './admin/habitacionservicio/habitacionservicio.component';
 
 
 const routes: Routes = [
@@ -22,12 +26,24 @@ const routes: Routes = [
   },
   {
     path: 'articulos', component: ArticuloComponent
-  },  
+  },
   {
     path: 'compras', component: ComprasComponent
   },
   {
     path: 'modulos', component: ModuloComponent
+  },
+  {
+    path: 'tipos', component: TipoComponent
+  },
+  {
+    path: 'servicios', component: ServicioComponent
+  },
+  {
+    path: 'habitaciones', component: HabitacionComponent
+  },
+  {
+    path: 'habitacionservicios', component: HabitacionservicioComponent
   },
   {
     path: '**', component: InicioComponent

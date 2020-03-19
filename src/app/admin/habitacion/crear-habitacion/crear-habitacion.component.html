@@ -1,0 +1,78 @@
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Nuevo registro</button>
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Nuevo registro</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form [formGroup]="datos">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="idmodulo">Módulo:</label>
+                    <input type="text" class="form-control" id="idmodulo" placeholder="Ingrese el nombre del modulo"
+                        formControlName="idmodulo" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="idtipo">Tipo:</label>
+                    <input type="text" class="form-control" id="idtipo" placeholder="Ingrese el nombre del tipo"
+                        formControlName="idtipo" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+            </div>
+            <!--
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="seriecompra">Serie No.:</label>
+                    <input type="text" class="form-control" id="seriecompra" placeholder="A-22365"
+                        formControlName="seriecompra" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="numerocompra">Factura No.:</label>
+                    <input type="number" class="form-control" id="numerocompra" placeholder="1112548"
+                        formControlName="numerocompra" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombrehotel">Total:</label>
+                    <input type="number" step="0.01" class="form-control" id="totalcompra" placeholder="5000.25"
+                        formControlName="totalcompra" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="nombrehotel">Fecha:</label>
+                    <input type="date" class="form-control" id="fechacompra" formControlName="fechacompra" required>
+                    <small class="form-text text-muted">Campo obligatorio *</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="observacioncompra">Observaciones</label>
+                <textarea class="form-control" formControlName="observacioncompra" id="observacioncompra"
+                    rows="3"></textarea>
+            </div>
+        -->
+            <!--Inicia el espacio de mensajes-->
+            <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+                {{ successMessage }}
+            </ngb-alert>
+        </form>
+    </div>
+    <div class="modal-footer" *ngIf="btnLoading else cargando">
+        <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+    </div>
+    <ng-template #cargando>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Procesando...
+            </button>
+            <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+        </div>
+    </ng-template>
+</ng-template>

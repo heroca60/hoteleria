@@ -1,0 +1,42 @@
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Nuevo registro</button>
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Nuevo registro</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form [formGroup]="datos">
+            <div class="form-group">
+                <label for="idtipo">Tipo de habitación:</label>
+                <input type="number" list="tipos" class="form-control" id="idtipo" 
+                placeholder="Seleccione..." formControlName="idtipo" 
+                 required>
+                <datalist id="tipos" *ngFor="let item of items">
+                    <option value="{{item.idtipo}}" label="{{item.nombretipo}}">                    
+                </datalist>
+                <small class="form-text text-muted">Campo obligatorio *</small>
+            </div>
+
+            <!--Inicia el espacio de mensajes-->
+            <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
+                {{ successMessage }}
+            </ngb-alert>
+        </form>
+    </div>
+    <div class="modal-footer" *ngIf="btnLoading else cargando">
+        <button type="button" class="btn btn-primary" (click)="nuevoElemento()">Guardar</button>
+        <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+    </div>
+
+    <ng-template #cargando>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Procesando...
+            </button>
+            <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Salir</button>
+        </div>
+    </ng-template>
+</ng-template>
