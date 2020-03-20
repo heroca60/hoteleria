@@ -12,6 +12,8 @@ export class ConfiguracionService {
   iconoActualizar: string = "settings"
   iconoEliminar: string = "delete"
   iconoListar: string = "list"
+  iconoServicios: string = "add_to_queue";
+  iconoInventario: string = "weekend";
   hotel: Ihotel;
   constructor() { }
 }

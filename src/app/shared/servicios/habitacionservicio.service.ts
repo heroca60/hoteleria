@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ConfiguracionService } from './configuracion.service';
-import { Ihabitacionservicio } from '../interfaces/ihabitacionservicio';
 import { environment } from 'src/environments/environment';
+import { Iviewhabitacionservicio } from '../interfaces/iviewhabitacionservicio';
+import { Ihabitacionservicio } from '../interfaces/ihabitacionservicio';
 
 @Injectable({
   providedIn: 'root'
@@ -28,13 +29,13 @@ export class HabitacionservicioService {
 
   //***********GET Async/Away****************** 
   async getData() {
-    return await this._http.get<Ihabitacionservicio[]>
-      (environment.apiRest + 'habitacionservicios?filter={"where":{"idhotel":' + this._config.hotel.idhotel + '}}').toPromise();
+    return await this._http.get<Iviewhabitacionservicio[]>
+      (environment.apiRest + 'viewhabitacionservicios?filter={"where":{"idhotel":' + this._config.hotel.idhotel + '}}').toPromise();
   }
   //************************************************
 
-  //***************POST con async/await*************************
-  async postData(data: Ihabitacionservicio) {
+   //***************POST con async/await*************************
+   async postData(data: Ihabitacionservicio) {
     let response = await this._http.post<Ihabitacionservicio>(environment.apiRest + 'habitacionservicios', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }
