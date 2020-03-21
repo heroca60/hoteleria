@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpHeaders, HttpClient, HttpParams } from '@angular/common/http';
 import { Idetalle } from '../interfaces/idetalle';
 import { environment } from 'src/environments/environment';
+import { Iviewdetalle } from '../interfaces/iviewdetalle';
 
 
 @Injectable({
@@ -23,8 +24,8 @@ export class DetalleService {
 
   //***********GET Async/Away****************** 
   async getData(idcompra: number) {
-    return await this._http.get<Idetalle[]>
-      (environment.apiRest + 'detalles?filter={"where":{"idcompra":' + idcompra + '}}').toPromise();
+    return await this._http.get<Iviewdetalle[]>
+      (environment.apiRest + 'viewdetalles/' + idcompra).toPromise();
   }
   //************************************************  
 

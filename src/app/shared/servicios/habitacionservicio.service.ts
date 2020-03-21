@@ -30,12 +30,12 @@ export class HabitacionservicioService {
   //***********GET Async/Away****************** 
   async getData() {
     return await this._http.get<Iviewhabitacionservicio[]>
-      (environment.apiRest + 'viewhabitacionservicios?filter={"where":{"idhotel":' + this._config.hotel.idhotel + '}}').toPromise();
+      (environment.apiRest + 'viewhabitacionservicios/' + this._config.hotel.idhotel).toPromise();
   }
   //************************************************
 
-   //***************POST con async/await*************************
-   async postData(data: Ihabitacionservicio) {
+  //***************POST con async/await*************************
+  async postData(data: Ihabitacionservicio) {
     let response = await this._http.post<Ihabitacionservicio>(environment.apiRest + 'habitacionservicios', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }

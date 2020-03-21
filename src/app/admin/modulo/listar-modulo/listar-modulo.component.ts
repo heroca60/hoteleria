@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Imodulo } from 'src/app/shared/interfaces/imodulo';
 import { ModuloService } from 'src/app/shared/servicios/modulo.service';
 import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
+import { Iviewmodulo } from 'src/app/shared/interfaces/iviewmodulo';
 
 @Component({
   selector: 'app-listar-modulo',
@@ -9,7 +10,7 @@ import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.ser
   styleUrls: ['./listar-modulo.component.css']
 })
 export class ListarModuloComponent implements OnInit {
-  datos$: Imodulo[] = [];
+  datos$: Iviewmodulo[] = [];
   page = 1;
   pageSize = 4;
   collectionSize = 0;
@@ -43,7 +44,7 @@ export class ListarModuloComponent implements OnInit {
 
   get items(): Imodulo[] {
     return this.datos$
-      .map((idarticulo, i) => ({ id: i + 1, ...idarticulo }))
+      .map((iditem, i) => ({ id: i + 1, ...iditem }))
       .slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize);
   }
 }

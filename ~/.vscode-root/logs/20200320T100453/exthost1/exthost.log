@@ -1,0 +1,250 @@
+[2020-03-20 10:04:55.372] [exthost] [info] extension host started
+[2020-03-20 10:04:55.415] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-20 10:04:55.415] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-20 10:04:55.418] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-20 10:04:55.418] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-20 10:04:55.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-20 10:04:55.427] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-20 10:04:55.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-20 10:04:55.439] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-20 10:04:55.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-20 10:04:55.442] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-20 10:04:55.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-20 10:04:55.443] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-20 10:04:55.445] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-03-20 10:04:55.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/client/out/extension
+[2020-03-20 10:04:55.459] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-03-20 10:04:55.460] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-03-20 10:04:55.485] [exthost] [info] eager extensions activated
+[2020-03-20 10:04:59.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-20 10:04:59.763] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-03-20 10:04:59.765] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-20 10:04:59.765] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-03-20 10:04:59.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-20 10:04:59.792] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-03-20 10:05:15.700] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-03-20 10:05:15.700] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-03-20 10:05:35.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-03-20 10:05:35.767] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2020-03-20 10:25:10.520] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-03-20 10:25:55.216] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-20 10:25:55.219] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-20 10:38:16.197] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-20 10:38:16.197] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-20 11:02:44.020] [exthost] [info] extension host started
+[2020-03-20 11:02:44.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-20 11:02:44.088] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-20 11:02:44.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-20 11:02:44.092] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-20 11:02:44.104] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-20 11:02:44.104] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-20 11:02:44.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-20 11:02:44.121] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-20 11:02:44.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-20 11:02:44.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-20 11:02:44.125] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-20 11:02:44.125] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-20 11:02:44.129] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-03-20 11:02:44.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/client/out/extension
+[2020-03-20 11:02:44.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-03-20 11:02:44.152] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-03-20 11:02:44.188] [exthost] [info] eager extensions activated
+[2020-03-20 11:03:07.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-03-20 11:03:07.064] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-03-20 11:03:07.069] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2020-03-20 11:03:07.069] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-03-20 11:03:12.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-20 11:03:12.367] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-03-20 11:03:12.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-20 11:03:12.368] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-03-20 11:03:36.232] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-03-20 11:34:09.051] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-20 11:34:09.053] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-03-20 11:34:53.548] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-20 11:34:53.548] [exthost] [error] Error: <semantic> TypeScript Server Error (3.7.5)
+Maximum call stack size exceeded
+RangeError: Maximum call stack size exceeded
+    at String.replace (<anonymous>)
+    at normalizeSlashes (tsserver.js:5897:21)
+    at combinePaths (tsserver.js:5958:28)
+    at getPathComponents (tsserver.js:5872:16)
+    at normalizePath (tsserver.js:6006:73)
+    at Object.toPath (tsserver.js:6021:15)
+    at toPath (tsserver.js:115386:23)
+    at getSourceFile (tsserver.js:115438:24)
+    at tryGetSourcePosition (tsserver.js:115407:24)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+    at tryGetSourcePosition (tsserver.js:115411:61)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49149)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:213785)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212703)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212179
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219256)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:218904)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-20 11:35:24.952] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-20 11:35:24.953] [exthost] [error] Error: <semantic> TypeScript Server Error (3.7.5)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (tsserver.js:118166:34)
+    at tsserver.js:118107:21
+    at visitNode (tsserver.js:17626:24)
+    at Object.forEachChild (tsserver.js:17848:21)
+    at processNode (tsserver.js:118106:20)
+    at processChildNode (tsserver.js:118172:21)
+    at processChildNodes (tsserver.js:118223:48)
+    at tsserver.js:118109:21
+    at visitNodes (tsserver.js:17631:24)
+    at Object.forEachChild (tsserver.js:17819:21)
+    at processNode (tsserver.js:118106:20)
+    at formatSpanWorker (tsserver.js:117921:17)
+    at tsserver.js:117885:140
+    at Object.getFormattingScanner (tsserver.js:116552:23)
+    at Object.formatNodeGivenIndentation (tsserver.js:117885:31)
+    at getFormattedTextOfNode (tsserver.js:119969:45)
+    at format (tsserver.js:119941:52)
+    at computeNewText (tsserver.js:119944:23)
+    at tsserver.js:119914:89
+    at Array.map (<anonymous>)
+    at tsserver.js:119913:50
+    at Array.map (<anonymous>)
+    at Object.getTextChangesFromChanges (tsserver.js:119899:86)
+    at ChangeTracker.getChanges (tsserver.js:119869:45)
+    at Function.ChangeTracker.with (tsserver.js:119391:32)
+    at Object.getCodeActions (tsserver.js:126050:64)
+    at tsserver.js:120431:121
+    at Object.flatMap (tsserver.js:468:25)
+    at Object.getFixes (tsserver.js:120431:23)
+    at tsserver.js:131114:35
+    at Object.flatMap (tsserver.js:468:25)
+    at Proxy.getCodeFixesAtPosition (tsserver.js:131112:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:140767:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:139552:61)
+    at tsserver.js:140960:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:140951:28)
+    at IOSession.Session.executeCommand (tsserver.js:140960:33)
+    at IOSession.Session.onMessage (tsserver.js:140983:35)
+    at Interface.<anonymous> (tsserver.js:142298:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49149)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:213785)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212703)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212179
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219256)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:218904)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-20 11:36:27.478] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-20 11:36:27.479] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain

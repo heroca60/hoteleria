@@ -3,6 +3,7 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Imodulo } from '../interfaces/imodulo';
 import { environment } from 'src/environments/environment';
 import { ConfiguracionService } from './configuracion.service';
+import { Iviewmodulo } from '../interfaces/iviewmodulo';
 
 @Injectable({
   providedIn: 'root'
@@ -27,8 +28,8 @@ export class ModuloService {
 
   //***********GET Async/Away****************** 
   async getData() {
-    return await this._http.get<Imodulo[]>
-      (environment.apiRest + 'modulos?filter={"where":{"idhotel":' + this._config.hotel.idhotel + '}}').toPromise();
+    return await this._http.get<Iviewmodulo[]>
+      (environment.apiRest + 'viewmodulos/' + this._config.hotel.idhotel).toPromise();
   }
   //************************************************
 

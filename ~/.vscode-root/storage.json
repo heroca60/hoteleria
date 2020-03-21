@@ -2,7 +2,8 @@
     "telemetry.machineId": "347abbef42cdaf33d428d35ccd3f718a0b42885a980cb2da30455fbc933da626",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/hcalderon/Documents/Angular/hoteleria"
+            "file:///home/hcalderon/Documents/Angular/hoteleria",
+            "file:///home/hcalderon/Documents/LoopBack/api-hotel"
         ],
         "files2": []
     },
@@ -56,6 +57,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Angular/hoteleria"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hcalderon/Documents/LoopBack/api-hotel",
+                                        "path": "/home/hcalderon/Documents/LoopBack/api-hotel",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/LoopBack/api-hotel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -383,7 +395,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

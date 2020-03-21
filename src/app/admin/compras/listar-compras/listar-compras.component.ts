@@ -10,6 +10,7 @@ import { debounceTime } from 'rxjs/operators';
 import { ArticuloService } from 'src/app/shared/servicios/articulo.service';
 import { Iarticulo } from 'src/app/shared/interfaces/iarticulo';
 import { Idetalle } from 'src/app/shared/interfaces/idetalle';
+import { Iviewdetalle } from 'src/app/shared/interfaces/iviewdetalle';
 
 @Component({
   selector: 'app-listar-compras',
@@ -20,7 +21,7 @@ import { Idetalle } from 'src/app/shared/interfaces/idetalle';
 export class ListarComprasComponent implements OnInit {
   datos$: Icompra[] = [];
   datosA$: Iarticulo[] = [];
-  datosD$: Idetalle[] = [];
+  datosD$: Iviewdetalle[] = [];
 
   page = 1;
   pageSize = 4;
@@ -137,7 +138,7 @@ export class ListarComprasComponent implements OnInit {
 
   get items(): Icompra[] {
     return this.datos$
-      .map((idarticulo, i) => ({ id: i + 1, ...idarticulo }))
+      .map((iditem, i) => ({ id: i + 1, ...iditem }))
       .slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize);
   }
 
