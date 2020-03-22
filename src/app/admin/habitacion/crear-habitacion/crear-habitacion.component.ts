@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Output, EventEmitter } from '@angular/core';
 import { Subject, Observable, merge } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
 import { HabitacionService } from 'src/app/shared/servicios/habitacion.service';
@@ -37,10 +37,14 @@ export class CrearHabitacionComponent implements OnInit {
   datos: any;
 
   //Evento para el padre... post exitoso render del list.
-  //@Output() renderSon = new EventEmitter<string>();
+  @Output() renderSon = new EventEmitter<string>();
 
   //Control del boton carga...
   btnLoading: boolean = true;
+
+  //elementos seleccionados
+  moduloseleccionado: string;
+  tiposeleccionado: string;
 
   constructor(  //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -55,13 +59,17 @@ export class CrearHabitacionComponent implements OnInit {
   ) {
     this.datos = this.formBuilder.group({
       idmodulo: ['', Validators.required],
-      idtipo: ['', Validators.required]
+      idtipo: ['', Validators.required],
+      preciohabitacion: ['', Validators.required],
+      estadohabitacion: [0, Validators.required]
     })
+    this.moduloseleccionado = "";
+    this.tiposeleccionado = "";
   }
 
   ngOnInit(): void {
     this.getAllModulos();
-
+    this.getAllTipos();
     //Manejo de las alertas del formulario
     setTimeout(() => this.staticAlertClosed = true, 20000);
     this._success.subscribe((message) => this.successMessage = message);
@@ -74,7 +82,7 @@ export class CrearHabitacionComponent implements OnInit {
   async getAllModulos() {
     try {
       //obtenemos todos los modulos del hotel
-      this.modulos = await this._modulos.getData();      
+      this.modulos = await this._modulos.getData();
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -83,7 +91,7 @@ export class CrearHabitacionComponent implements OnInit {
   async getAllTipos() {
     try {
       //obtenemos todos los modulos del hotel
-      this.tipos = await this._tipos.getData();      
+      this.tipos = await this._tipos.getData();
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -119,7 +127,7 @@ export class CrearHabitacionComponent implements OnInit {
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
         //Enviado mensaje de actualización del listado
-        //this.renderSon.emit("true");
+        this.renderSon.emit("true");
         this.btnLoading = true;
       } catch (error) {
         this.btnLoading = true;
@@ -130,6 +138,25 @@ export class CrearHabitacionComponent implements OnInit {
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
+  }
+
+
+  emodulo(e: any): void {
+    this.moduloseleccionado = ""
+    this.modulos.forEach(element => {
+      if (element.idmodulo == e.target.value) {
+        this.moduloseleccionado = element.nombremodulo
+      }
+    });
+  }
+
+  etipo(e: any): void {    
+    this.tiposeleccionado = ""
+    this.tipos.forEach(element => {
+      if (element.idtipo == e.target.value) {
+        this.tiposeleccionado = element.nombretipo
+      }
+    });
   }
 
 }

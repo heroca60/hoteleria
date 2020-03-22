@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ListarHabitacionComponent } from './listar-habitacion/listar-habitacion.component';
 
 @Component({
   selector: 'app-habitacion',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HabitacionComponent implements OnInit {
 
+
+  @ViewChild(ListarHabitacionComponent) componenteListar: ListarHabitacionComponent;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  render(val: string): void {
+    this.componenteListar.renderm();
   }
 
 }
