@@ -45,6 +45,7 @@ export class CrearHabitacionComponent implements OnInit {
   //elementos seleccionados
   moduloseleccionado: string;
   tiposeleccionado: string;
+  
 
   constructor(  //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -67,7 +68,7 @@ export class CrearHabitacionComponent implements OnInit {
     this.tiposeleccionado = "";
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     this.getAllModulos();
     this.getAllTipos();
     //Manejo de las alertas del formulario
@@ -83,6 +84,11 @@ export class CrearHabitacionComponent implements OnInit {
     try {
       //obtenemos todos los modulos del hotel
       this.modulos = await this._modulos.getData();
+      //Evaluamos si existen registros de modulos para ese hotel
+      if (this.modulos.length == 0) {        
+        this.messageType = "danger";
+        this._success.next("No es posible crear un nuevo registro de habitación si no se cuentan con registros de módulo.  Es necesario crear un módulo antes de continuar con este procedimiento.");
+      }
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -92,6 +98,11 @@ export class CrearHabitacionComponent implements OnInit {
     try {
       //obtenemos todos los modulos del hotel
       this.tipos = await this._tipos.getData();
+      //Evaluamos si existen registros de tipos para ese hotel
+      if (this.tipos.length == 0) {        
+        this.messageType = "danger";
+        this._success.next("No es posible crear un nuevo registro de habitación si no se cuentan con registros de tipos.  Es necesario crear un tipo antes de continuar con este procedimiento.");
+      }
     } catch (error) {
       alert('Ocurrió un error: ' + error);
     }
@@ -150,7 +161,7 @@ export class CrearHabitacionComponent implements OnInit {
     });
   }
 
-  etipo(e: any): void {    
+  etipo(e: any): void {
     this.tiposeleccionado = ""
     this.tipos.forEach(element => {
       if (element.idtipo == e.target.value) {

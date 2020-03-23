@@ -1,4 +1,109 @@
-<ngb-accordion #a="ngbAccordion" >
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="../../../assets/detallegasto.jpeg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Transacciones</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum illum maiores quasi, minus velit
+          incidunt iste necessitatibus fugit illo mollitia officiis corporis alias est vitae quidem! Dicta, quos quod!
+        </p>
+        <p>
+          <a routerLink="/compras" 
+          ngbPopover="Gastos" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Transacciones">
+            <i class="material-icons md-48">shop_two</i>
+          </a>
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Administración general</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis in magni sed ex nulla officia, incidunt,
+          nihil eveniet illum eos eligendi debitis voluptate ratione sunt. Commodi expedita facilis corrupti sunt!
+        </p>
+        <p>
+          <a routerLink="/modulos"
+          ngbPopover="Módulos del hotel" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Administrar">
+            <i class="material-icons md-48">layers</i>
+          </a>
+          <a routerLink="/habitaciones"
+          ngbPopover="Habitaciones del hotel" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Administrar">
+            <i class="material-icons md-48">ballot</i>
+          </a>
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img src="../../../assets/slZ6-SLD04.png" class="card-img" alt="...">
+    </div>
+  </div>
+</div>
+<br>
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="../../../assets/sites.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Catálogos</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illo sequi dicta iure eum adipisci
+          praesentium cumque assumenda totam iusto pariatur aut laudantium soluta, fuga recusandae blanditiis
+          voluptatibus doloremque quisquam.
+        </p>
+        <p>
+          <a routerLink="/tipos"
+          ngbPopover="Tipos de habitaciones" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Catálogo">
+            <i class="material-icons md-48">localhotel</i>
+          </a>
+          <a routerLink="/servicios"
+          ngbPopover="Servicios del hotel" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Catálogo">
+            <i class="material-icons md-48">wifi</i>
+          </a>
+          <a routerLink="/articulos"
+          ngbPopover="Artículos" 
+          triggers="mouseenter:mouseleave" 
+          placement="bottom"
+          popoverTitle="Catálogo">
+            <i class="material-icons md-48">personal_video</i>
+          </a>
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+
+<ngb-accordion #a="ngbAccordion">
   <ngb-panel id="custom-panel-1">
     <ng-template ngbPanelHeader let-opened="opened">
       <div class="d-flex align-items-center justify-content-between">
@@ -7,10 +112,10 @@
       </div>
     </ng-template>
     <ng-template ngbPanelContent>
-      Todas las opciones que se detallan a continuación surgirán efecto 
+      Todas las opciones que se detallan a continuación surgirán efecto
       sobre {{nombre}} hotel, elemento seleccionado previamente.
       <br>
-      Si por algún motivo su selección no es la deseada presione sobre el 
+      Si por algún motivo su selección no es la deseada presione sobre el
       siguiente enlace y vuelva nuevamente a seleccionar su preferido.
       <button class="btn btn-info">Volver</button>
     </ng-template>
@@ -43,7 +148,7 @@
           cada hotel registrado.
         </p>
         <p class="centrarElemento">
-          <button class="btn btn-dark" routerLink="/compras" >Administrar</button>
+          <button class="btn btn-dark" routerLink="/compras">Administrar</button>
         </p>
       </div>
     </div>
@@ -87,7 +192,7 @@
           Administre los diferentes módulos con que cuenta su infraestructura.
         </p>
         <p class="centrarElemento">
-          <button class="btn btn-dark" routerLink="/modulos" >Administrar</button>
+          <button class="btn btn-dark" routerLink="/modulos">Administrar</button>
         </p>
       </div>
     </div>
@@ -137,3 +242,4 @@
     </div>
   </div>
 </div>
+-->

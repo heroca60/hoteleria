@@ -35,6 +35,10 @@ export class DetalleService {
     return response
   }
 
-
+  //***************DELETE con async/await*************************
+  async deleteData(id: number) {
+    let response = await this._http.delete(environment.apiRest + 'detalles/' + id).toPromise();        
+    return response    
+  }
 
 }

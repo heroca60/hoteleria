@@ -64,6 +64,11 @@ export class ListarComprasComponent implements OnInit {
 
   total: number = 0.00;
 
+  //
+  articuloseleccionado: string = "";
+
+  idcompra:number = 0;
+
   constructor(
     private _apiRest: CompraService,
     private _config: ConfiguracionService,
@@ -122,6 +127,7 @@ export class ListarComprasComponent implements OnInit {
 
   async getDetalleCompra(id: number) {
     try {
+      this.idcompra = id;
       this.datosD$ = await this._apiRestDetalle.getData(id);
       this.total = 0.00;
       this.datosD$.forEach(item => {
@@ -203,6 +209,24 @@ export class ListarComprasComponent implements OnInit {
     } else {
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
+    }
+  }
+
+  earticulo(e: any): void {
+    this.articuloseleccionado = ""
+    this.datosA$.forEach(element => {
+      if (element.idarticulo == e.target.value) {
+        this.articuloseleccionado = element.nombrearticulo
+      }
+    });
+  }
+
+  async eliminarDetalle(id: number) {
+    try {
+      await this._apiRestDetalle.deleteData(id);
+      this.getDetalleCompra(this.idcompra);
+    } catch (error) {
+
     }
   }
 
