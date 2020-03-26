@@ -10,36 +10,32 @@
         <form [formGroup]="datos">
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label class="my-1 mr-2" for="idmodulo">Modulo:</label>
-                    <select class="custom-select my-1 mr-sm-2" id="idmodulo" formControlName="idmodulo" required>
-                        <option *ngFor="let item of modulos" value={{item.idmodulo}}>
-                            {{item.nombremodulo}}
+                    <label class="my-1 mr-2" for="idcompra">Gasto:</label>
+                    <select class="custom-select my-1 mr-sm-2" id="idcompra" (change)="ecompra($event)" required>
+                        <option value="0" selected>Seleccione un elemento...</option>
+                        <option *ngFor="let item of compras" value={{item.idcompra}}>
+                            {{item.proveedorcompra}} - factura:{{item.seriecompra}} - {{item.numerocompra}}
                         </option>
                     </select>
                     <small class="form-text text-muted">Campo obligatorio *</small>
                 </div>
-                <div class="form-group col-md-6">
-                    <label class="my-1 mr-2" for="idtipo">Tipo de habitación:</label>
-                    <select class="custom-select my-1 mr-sm-2" id="idtipo" formControlName="idtipo" required>
-                        <option *ngFor="let item of tipos" value={{item.idtipo}}>
-                            {{item.nombretipo}}
+                <div class="form-group col-md-6" *ngIf="seleccionado else notselect">
+                    <label class="my-1 mr-2" for="iddetalle">Detalle del gasto:</label>
+                    <select class="custom-select my-1 mr-sm-2" id="iddetalle" formControlName="iddetalle" required>
+                        <option *ngFor="let item of detalles" value={{item.iddetalle}}>
+                            {{item.cantidaddetalle}} {{item.nombrearticulo}} a {{item.preciodetalle | currency: 'Q '}}
                         </option>
                     </select>
                     <small class="form-text text-muted">Campo obligatorio *</small>
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="preciohabitacion">Precio:</label>
-                    <input type="number" class="form-control" id="preciohabitacion" placeholder="Q750.00"
-                        formControlName="preciohabitacion" required>
-                    <small class="form-text text-muted">Campo obligatorio *</small>
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="estadohabitacion">Estado:</label>
-                    <input type="text" class="form-control" id="estadohabitacion" placeholder="Disponible" required
-                        disabled>
-                </div>
+                <ng-template #notselect>
+                    <div class="form-group col-md-6">
+                        <br>
+                        <br>
+                        <small class="form-text text-muted" style="text-align: center;">Seleccione una compra para habilitar el detalle</small>
+                    </div>
+                </ng-template>
+
             </div>
 
             <!--Inicia el espacio de mensajes-->

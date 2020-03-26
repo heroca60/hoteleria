@@ -9,7 +9,7 @@
                 <th scope="col">Total</th>
                 <th scope="col">Fecha</th>
                 <th scope="col">Observaciones</th>
-                <th scope="col">Detalle</th>
+                <th scope="col">Detallar</th>
                 <th scope="col">Estado</th>
             </tr>
         </thead>
@@ -65,23 +65,18 @@
             <ngb-alert [type]="tipo" [dismissible]="false">
                 Hotel: <strong>{{hotelSeleccionado}}</strong>
                 <br>
-                Compra: <strong>{{compraSeleccionada.idcompra}}</strong> 
-                - Serie: <strong>{{compraSeleccionada.seriecompra}}</strong> 
+                Compra: <strong>{{compraSeleccionada.idcompra}}</strong>
+                - Serie: <strong>{{compraSeleccionada.seriecompra}}</strong>
                 Número: <strong>{{compraSeleccionada.numerocompra}}</strong>
             </ngb-alert>
         </p>
         <form [formGroup]="datos">
-            <label for="idcompra">Artículo:
-                <strong> {{ articuloseleccionado}}</strong>
-            </label>
-
-            <datalist id="articulos">
+            <label class="my-1 mr-2" for="idarticulo">Articulo:</label>
+            <select class="custom-select my-1 mr-sm-2" id="idarticulo" formControlName="idarticulo" required>
                 <option *ngFor="let item of datosA$" value={{item.idarticulo}}>
                     {{item.nombrearticulo}} {{item.descripcionarticulo}}
                 </option>
-            </datalist>
-            <input type="number" class="form-control" id="idarticulo" placeholder="Seleccione..." list="articulos"
-                formControlName="idarticulo" (change)="earticulo($event)" required>
+            </select>
             <small class="form-text text-muted">Campo obligatorio *</small>
 
             <div class="form-row">
@@ -124,7 +119,7 @@
 <!--MODAL PARA VISUALIZAR UN DETALLE-->
 <ng-template #contentListadoDetalle let-modal>
     <div class="modal-header">
-        <h4 class="modal-title" id="modal-basic-title">Detalle de la compra</h4>
+        <h4 class="modal-title" id="modal-basic-title">Detalle del gasto</h4>
         <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -138,7 +133,7 @@
                         <th scope="col">Compra</th>
                         <th scope="col">Articulo</th>
                         <th scope="col">Cantidad</th>
-                        <th scope="col">Precio</th>                        
+                        <th scope="col">Precio</th>
                         <th scope="col">Sub total</th>
                         <th scope="col">Eliminar</th>
                     </tr>
@@ -149,10 +144,12 @@
                         <td>{{ item.idcompra}}</td>
                         <td>{{ item.nombrearticulo}}</td>
                         <td>{{ item.cantidaddetalle}}</td>
-                        <td>{{ item.preciodetalle | currency:'Q '}}</td>                        
+                        <td>{{ item.preciodetalle | currency:'Q '}}</td>
                         <td>{{ item.preciodetalle * item.cantidaddetalle | currency:'Q '}}</td>
                         <td>
-                            <a title="Eliminar registro" (click)="eliminarDetalle(item.iddetalle)">
+                            <a (click)="eliminarDetalle(item.iddetalle)"
+                                ngbPopover="El registro puede eliminarse toda vez no esté inventariado"
+                                triggers="mouseenter:mouseleave" placement="left" popoverTitle="Precaución">
                                 <i class="material-icons">{{ie}}</i>
                             </a>
                         </td>

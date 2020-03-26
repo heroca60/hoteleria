@@ -45,7 +45,7 @@ export class CrearHabitacionComponent implements OnInit {
   //elementos seleccionados
   moduloseleccionado: string;
   tiposeleccionado: string;
-  
+
 
   constructor(  //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -68,7 +68,7 @@ export class CrearHabitacionComponent implements OnInit {
     this.tiposeleccionado = "";
   }
 
-  ngOnInit(): void {    
+  ngOnInit(): void {
     this.getAllModulos();
     this.getAllTipos();
     //Manejo de las alertas del formulario
@@ -85,7 +85,7 @@ export class CrearHabitacionComponent implements OnInit {
       //obtenemos todos los modulos del hotel
       this.modulos = await this._modulos.getData();
       //Evaluamos si existen registros de modulos para ese hotel
-      if (this.modulos.length == 0) {        
+      if (this.modulos.length == 0) {
         this.messageType = "danger";
         this._success.next("No es posible crear un nuevo registro de habitación si no se cuentan con registros de módulo.  Es necesario crear un módulo antes de continuar con este procedimiento.");
       }
@@ -99,7 +99,7 @@ export class CrearHabitacionComponent implements OnInit {
       //obtenemos todos los modulos del hotel
       this.tipos = await this._tipos.getData();
       //Evaluamos si existen registros de tipos para ese hotel
-      if (this.tipos.length == 0) {        
+      if (this.tipos.length == 0) {
         this.messageType = "danger";
         this._success.next("No es posible crear un nuevo registro de habitación si no se cuentan con registros de tipos.  Es necesario crear un tipo antes de continuar con este procedimiento.");
       }
@@ -132,6 +132,12 @@ export class CrearHabitacionComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
+        //convirtiendo valores string a number
+        let idm: number = Number(this.datos.get('idmodulo').value)
+        let idt: number = Number(this.datos.get('idtipo').value)
+        this.datos.controls['idmodulo'].setValue(idm);
+        this.datos.controls['idtipo'].setValue(idt);
+        //-----------------------------------
         this.btnLoading = false;
         await this._apiRest.postElemento(this.datos.value);
         this.messageType = "success";
@@ -143,7 +149,7 @@ export class CrearHabitacionComponent implements OnInit {
       } catch (error) {
         this.btnLoading = true;
         this.messageType = "danger";
-        this._success.next("Ocurrió un error: " + error);
+        this._success.next("Ocurrió un error: " + error.value);
       }
     } else {
       this.messageType = "warning";
@@ -152,6 +158,7 @@ export class CrearHabitacionComponent implements OnInit {
   }
 
 
+  /*
   emodulo(e: any): void {
     this.moduloseleccionado = ""
     this.modulos.forEach(element => {
@@ -169,5 +176,5 @@ export class CrearHabitacionComponent implements OnInit {
       }
     });
   }
-
+*/
 }

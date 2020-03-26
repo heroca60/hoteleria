@@ -67,7 +67,7 @@ export class ListarComprasComponent implements OnInit {
   //
   articuloseleccionado: string = "";
 
-  idcompra:number = 0;
+  idcompra: number = 0;
 
   constructor(
     private _apiRest: CompraService,
@@ -91,7 +91,8 @@ export class ListarComprasComponent implements OnInit {
       idcompra: ['', Validators.required],
       idarticulo: ['', Validators.required],
       cantidaddetalle: ['', Validators.required],
-      preciodetalle: ['', Validators.required]
+      preciodetalle: ['', Validators.required],
+      inventariadodetalle: [0]
     })
   }
 
@@ -190,6 +191,10 @@ export class ListarComprasComponent implements OnInit {
   async nuevoElemento() {
     if (this.datos.valid) {
       try {
+        //Convirtiendo el tipo de dato a a numérico                
+        let id: number = Number(this.datos.get('idarticulo').value);
+        this.datos.controls['idarticulo'].setValue(id);
+        //
         this.btnLoading = false;
         await this._apiRestDetalle.postData(this.datos.value);
         this.messageType = "success";
@@ -204,7 +209,7 @@ export class ListarComprasComponent implements OnInit {
       } catch (error) {
         this.btnLoading = true;
         this.messageType = "danger";
-        this._success.next("Ocurrió un error: " + error);
+        this._success.next("Ocurrió un error: " + error.value);
       }
     } else {
       this.messageType = "warning";

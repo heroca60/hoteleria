@@ -11,6 +11,7 @@ import { TipoComponent } from './admin/tipo/tipo.component';
 import { HabitacionComponent } from './admin/habitacion/habitacion.component';
 import { ServicioComponent } from './admin/servicio/servicio.component';
 import { HabitacionservicioComponent } from './admin/habitacionservicio/habitacionservicio.component';
+import { InventarioComponent } from './admin/inventario/inventario.component';
 
 
 const routes: Routes = [
@@ -44,6 +45,9 @@ const routes: Routes = [
   },
   {
     path: 'habitacionservicios', component: HabitacionservicioComponent
+  },
+  {
+    path: 'inventarios', component: InventarioComponent
   },
   {
     path: '**', component: InicioComponent

@@ -44,6 +44,9 @@ import { ListarServicioComponent } from './admin/servicio/listar-servicio/listar
 import { HabitacionservicioComponent } from './admin/habitacionservicio/habitacionservicio.component';
 import { CrearHabitacionservicioComponent } from './admin/habitacionservicio/crear-habitacionservicio/crear-habitacionservicio.component';
 import { ListarHabitacionservicioComponent } from './admin/habitacionservicio/listar-habitacionservicio/listar-habitacionservicio.component';
+import { InventarioComponent } from './admin/inventario/inventario.component';
+import { CrearInventarioComponent } from './admin/inventario/crear-inventario/crear-inventario.component';
+import { ListarInventarioComponent } from './admin/inventario/listar-inventario/listar-inventario.component';
 
 
 @NgModule({
@@ -79,7 +82,10 @@ import { ListarHabitacionservicioComponent } from './admin/habitacionservicio/li
     ListarServicioComponent,
     HabitacionservicioComponent,
     CrearHabitacionservicioComponent,
-    ListarHabitacionservicioComponent    
+    ListarHabitacionservicioComponent,
+    InventarioComponent,
+    CrearInventarioComponent,
+    ListarInventarioComponent    
   ],
   imports: [
     BrowserModule,
