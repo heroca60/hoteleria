@@ -1,0 +1,643 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/Angular/hoteleria
+> git status -z -u
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git check-ignore -v -z --stdin
+> git cat-file -s dda761005dc57d8aca03b92c3337ce1f475f7476
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/LoopBack/api-hotel
+> git status -z -u
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git cat-file -s dda761005dc57d8aca03b92c3337ce1f475f7476
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/shared/servicios/inventario.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/inventario.service.ts
+> git cat-file -s 8208a9d85df1bd98d4c59a6054d0521f63cf8667
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/repositories/detalle.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/detalle.repository.ts
+> git cat-file -s 485bb4e50c5d338e6910308972b98972257f2961
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/repositories/detalle.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/detalle.repository.ts
+> git cat-file -s 485bb4e50c5d338e6910308972b98972257f2961
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git check-ignore -v -z --stdin
+> git show :src/repositories/inventario.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/inventario.repository.ts
+> git cat-file -s 9daa7712bab4565299c0128d08839d81a9bcfc96
+> git show :src/repositories/detalle.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/detalle.repository.ts
+> git cat-file -s 485bb4e50c5d338e6910308972b98972257f2961
+> git show :src/repositories/compra.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/compra.repository.ts
+> git cat-file -s ed945d0e688c55703df321c05af6a54dbd21277c
+> git show :src/repositories/detalle.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/detalle.repository.ts
+> git cat-file -s 485bb4e50c5d338e6910308972b98972257f2961
+> git show :src/repositories/inventario.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/inventario.repository.ts
+> git cat-file -s 9daa7712bab4565299c0128d08839d81a9bcfc96
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/repositories/inventario.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/inventario.repository.ts
+> git cat-file -s 9daa7712bab4565299c0128d08839d81a9bcfc96
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/repositories/inventario.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/inventario.repository.ts
+> git cat-file -s 9daa7712bab4565299c0128d08839d81a9bcfc96
+> git show :node_modules/@loopback/repository/dist/repositories/legacy-juggler-bridge.d.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/node_modules/@loopback/repository/dist/repositories/legacy-juggler-bridge.d.ts
+> git check-ignore -v -z --stdin
+> git show :node_modules/@loopback/repository/dist/transaction.d.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/node_modules/@loopback/repository/dist/transaction.d.ts
+> git check-ignore -v -z --stdin
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git show :src/repositories/inventario.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/repositories/inventario.repository.ts
+> git cat-file -s 9daa7712bab4565299c0128d08839d81a9bcfc96
+> git show :node_modules/@loopback/repository/dist/repositories/legacy-juggler-bridge.d.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/node_modules/@loopback/repository/dist/repositories/legacy-juggler-bridge.d.ts
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/controllers/inventario.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/inventario.controller.ts
+> git cat-file -s 0df258f5659d9d93acb72b7c845a94118471e04b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/shared/servicios/detalle.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/detalle.service.ts
+> git cat-file -s 20c8ff636ed16814582c077b54deb230a94d664f
+> git show :src/controllers/viewdetalle.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/viewdetalle.controller.ts
+> git cat-file -s d6a1e462178ce1d55156f847845707663c8c252c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/controllers/tipo.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/tipo.controller.ts
+> git cat-file -s 9bf392d35395797ec310e2d877cfa039c973e0c3
+> git show :src/controllers/viewdetalle.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/viewdetalle.controller.ts
+> git cat-file -s d6a1e462178ce1d55156f847845707663c8c252c
+> git show :src/controllers/tipo.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-hotel/src/controllers/tipo.controller.ts
+> git cat-file -s 9bf392d35395797ec310e2d877cfa039c973e0c3
+> git show :src/app/shared/servicios/detalle.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/detalle.service.ts
+> git cat-file -s 20c8ff636ed16814582c077b54deb230a94d664f
+> git show :src/app/shared/servicios/configuracion.service.spec.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/configuracion.service.spec.ts
+> git cat-file -s 85bf1fb455a61597b8bc1b8faca953c1a9a88b7c
+> git show :src/app/shared/servicios/detalle.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/detalle.service.ts
+> git cat-file -s 20c8ff636ed16814582c077b54deb230a94d664f

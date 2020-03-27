@@ -1,0 +1,473 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/Angular/hoteleria
+> git status -z -u
+> git show :src/app/shared/servicios/detalle.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/detalle.service.ts
+> git cat-file -s 20c8ff636ed16814582c077b54deb230a94d664f
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/detalle.service.ts
+> git cat-file -s 20c8ff636ed16814582c077b54deb230a94d664f
+> git show :src/app/shared/servicios/detalle.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 9af83149dd6b6b27bebdb59e33c0914440426492
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 9af83149dd6b6b27bebdb59e33c0914440426492
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 958efc49e02d3b6501fe288d1d4903fe6f3877e1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/shared/interfaces/iinventario.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/interfaces/iinventario.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/shared/servicios/inventario.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/inventario.service.ts
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/inventario.service.ts
+> git show :src/app/shared/servicios/inventario.service.ts
+> git show :src/app/shared/servicios/tipo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/tipo.service.ts
+> git cat-file -s cfd258ce771fd9431cef1a1cd8a4afc0b71ab4ee
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/shared/servicios/inventario.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/inventario.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git show :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s 892db61bc41edef3812229cbefd35f86671711d7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git check-ignore -v -z --stdin
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s 892db61bc41edef3812229cbefd35f86671711d7
+> git show :src/app/app-routing.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app-routing.module.ts
+> git cat-file -s 892db61bc41edef3812229cbefd35f86671711d7
+> git show :src/app/app-routing.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/dashboard/dashboard.component.html
+> git cat-file -s 324e870ded988f5f71974ce7c0acd84cb0a6f771
+> git show :src/app/admin/dashboard/dashboard.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/inventario/inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/inventario.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/inventario/listar-inventario/listar-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/listar-inventario/listar-inventario.component.html
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git cat-file -s 9f9aa3a9dc28b9cf3c6b591c869fbb6831a5ca13
+> git show :src/app/admin/inventario/listar-inventario/listar-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/listar-inventario/listar-inventario.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git cat-file -s 9f9aa3a9dc28b9cf3c6b591c869fbb6831a5ca13
+> git show :src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git show :src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git show :src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/listar-inventario/listar-inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git cat-file -s 09552cf95c6d9c9494274898fb2125205ad1fa4c
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git cat-file -s 09552cf95c6d9c9494274898fb2125205ad1fa4c
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git cat-file -s 09552cf95c6d9c9494274898fb2125205ad1fa4c
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git show :src/app/shared/servicios/inventario.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/inventario.service.ts
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.ts
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/inventario/inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/inventario.component.ts
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/crear-inventario/crear-inventario.component.html
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/inventario/inventario.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/inventario/inventario.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/environments/environment.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/environments/environment.ts
+> git cat-file -s e4b3c8edc3d12087cac3b2abd6e5a8eadd13e45f
+> git show :src/app/shared/servicios/tipo.service.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/shared/servicios/tipo.service.ts
+> git cat-file -s cfd258ce771fd9431cef1a1cd8a4afc0b71ab4ee

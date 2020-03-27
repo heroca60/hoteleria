@@ -50,7 +50,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/hcalderon/Documents/Angular/hoteleria",
                                         "external": "file:///home/hcalderon/Documents/Angular/hoteleria",
                                         "path": "/home/hcalderon/Documents/Angular/hoteleria",
                                         "scheme": "file"
@@ -106,7 +105,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -182,7 +182,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1451,8 +1451,11 @@
     "pickerWorkingDir": "/home/hcalderon/Documents/Angular",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/hcalderon/Documents/Angular/hoteleria",
-            "backupPath": "/home/hcalderon/Documents/Angular/hoteleria/~/.vscode-root/Backups/21f46b76c38b74934a5b8c9db8177ab3",
+            "workspaceIdentifier": {
+                "id": "8b3d69c5144255c69abf098ea9a6daef",
+                "configURIPath": "file:///home/hcalderon/Documents/Angular/hoteleria/~/.vscode-root/Workspaces/1585249831774/workspace.json"
+            },
+            "backupPath": "/home/hcalderon/Documents/Angular/hoteleria/~/.vscode-root/Backups/8b3d69c5144255c69abf098ea9a6daef",
             "uiState": {
                 "mode": 0,
                 "x": 171,

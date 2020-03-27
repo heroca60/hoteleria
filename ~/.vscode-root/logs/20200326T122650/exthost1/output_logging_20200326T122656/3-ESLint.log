@@ -1,0 +1,205 @@
+[Info  - 12:26:56] ESLint server stopped.
+[Info  - 12:26:56] ESLint server running in node v12.4.0
+[Info  - 12:26:56] ESLint server is running.
+[Info  - 12:27:01] ESLint library loaded from: /usr/local/lib/node_modules/eslint/lib/api.js
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:14803) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:14803) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Error: No ESLint configuration found.
+    at Config.getLocalConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:255:39)
+    at Config.getConfigHierarchy (/usr/local/lib/node_modules/eslint/lib/config.js:179:43)
+    at Config.getConfigVector (/usr/local/lib/node_modules/eslint/lib/config.js:286:21)
+    at Config.getConfig (/usr/local/lib/node_modules/eslint/lib/config.js:329:29)
+    at CLIEngine.getConfigForFile (/usr/local/lib/node_modules/eslint/lib/cli-engine.js:628:29)
+    at /home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34933
+    at ce (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:44086)
+    at f.then.r.validate (/home/hcalderon/.vscode/extensions/dbaeumer.vscode-eslint-2.1.1/server/out/eslintServer.js:1:34887)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:14803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+[Info  - 13:10:31] ESLint server stopped.

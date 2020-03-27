@@ -64,8 +64,7 @@ export class CrearInventarioComponent implements OnInit {
     //Formulario
     this.datos = this.formBuilder.group({
       idhotel: [this._config.hotel.idhotel],
-      iddetalle: ['', Validators.required],
-      idinventario: ['', Validators.required]
+      iddetalle: ['', Validators.required]
     })
   }
 
@@ -90,12 +89,12 @@ export class CrearInventarioComponent implements OnInit {
     }
   }
 
-  async getAllDetalles(idcompra: number) {
+  async getAllDetallesBy(idcompra: number) {
     try {
-      this.detalles = await this._apiDetalles.getData(idcompra);
+      this.detalles = await this._apiDetalles.getDataByEstado(idcompra);
       if (this.detalles.length == 0) {
         this.messageType = "warning";
-        this._success.next("La compra seleccionado no cuenta con ningun detalle");
+        this._success.next("La compra seleccionado no cuenta con ningun detalle, o los detalles ya han sido inventariados");
         this.seleccionado = false;
       }
     } catch (error) {
@@ -128,7 +127,9 @@ export class CrearInventarioComponent implements OnInit {
     if (this.datos.valid) {
       try {
         this.btnLoading = false;
-        await this._apiRest.postData(this.datos.value);
+        let id = Number(this.datos.get('iddetalle').value);
+        this.datos.get('iddetalle').setValue(id);
+        await this._apiRest.postData(this.datos.value, this.cantidadDetalle());
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
@@ -148,13 +149,23 @@ export class CrearInventarioComponent implements OnInit {
 
   }
 
+  cantidadDetalle(): number {
+    let cantidad: number = 0;
+    this.detalles.forEach(item => {
+      if (Number(this.datos.get('iddetalle').value) == Number(item.iddetalle)) {
+        cantidad = item.cantidaddetalle;
+      }
+    });
+    return cantidad;
+  }
+
   ecompra(e: any): void {
     if (e.target.value == "0") {
       this.messageType = "danger";
       this._success.next("Seleccione un elemento...");
       this.seleccionado = false;
     } else {
-      this.getAllDetalles(Number(e.target.value));
+      this.getAllDetallesBy(Number(e.target.value));
       this.seleccionado = true;
     }
   }

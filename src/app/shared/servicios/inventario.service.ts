@@ -32,8 +32,8 @@ export class InventarioService {
   }
 
   //***************POST con async/await*************************
-  async postData(data: Iinventario) {
-    let response = await this._http.post<Iinventario>(environment.apiRest + 'inventarios', JSON.stringify(data), this.httpOptions).toPromise();
+  async postData(data: Iinventario, cantidad: number) {    
+    let response = await this._http.post<Iinventario>(environment.apiRest + 'inventarios/' + cantidad, JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }
 

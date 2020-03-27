@@ -1,7 +1,0 @@
-[Info  - 10:05:15] ESLint server stopped.
-[Info  - 10:05:15] ESLint server running in node v12.4.0
-[Info  - 10:05:15] ESLint server is running.
-[Info  - 10:05:16] ESLint library loaded from: /home/hcalderon/Documents/LoopBack/api-hotel/node_modules/eslint/lib/api.js
-[Error - 10:35:32] Failed to apply command: eslint.applyDisableFile
-[Error - 10:35:42] Failed to apply command: eslint.applyDisableFile
-[Info  - 11:02:42] ESLint server stopped.
