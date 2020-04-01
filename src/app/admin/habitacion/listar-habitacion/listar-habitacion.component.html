@@ -11,21 +11,29 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let item of items">
-                <td>{{ item.idhabitacion}}</td>
-                <td>{{ item.nombrehotel }}</td>
-                <td>{{ item.nombremodulo}}</td>
-                <td>{{ item.nombretipo}}</td>
-                <td>{{ item.preciohabitacion | currency: 'Q '}}</td>
-                <td *ngIf="item.estadohabitacion == 1 else disponible">
-                    Ocupada
+            <tr *ngIf="collectionSize==0 else carga">
+                <td colspan="6" class="centrarElemento">
+                    No existen registros creados.
                 </td>
-                <ng-template #disponible>
-                    <td>
-                        Disponible
-                    </td>
-                </ng-template>            
             </tr>
+
+            <ng-template #carga>
+                <tr *ngFor="let item of items">
+                    <td>{{ item.idhabitacion}}</td>
+                    <td>{{ item.nombrehotel }}</td>
+                    <td>{{ item.nombremodulo}}</td>
+                    <td>{{ item.nombretipo}}</td>
+                    <td>{{ item.preciohabitacion | currency: 'Q '}}</td>
+                    <td *ngIf="item.estadohabitacion == 1 else disponible">
+                        Ocupada
+                    </td>
+                    <ng-template #disponible>
+                        <td>
+                            Disponible
+                        </td>
+                    </ng-template>
+                </tr>
+            </ng-template>
         </tbody>
     </table>
     <!--PAGINACION DEL LISTADO-->

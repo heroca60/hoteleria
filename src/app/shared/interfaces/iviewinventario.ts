@@ -5,4 +5,5 @@ export interface Iviewinventario {
     nombrehotel: string;
     nombrearticulo: string;
     descripcionarticulo: string;
+    estadoinventario: number;
 }

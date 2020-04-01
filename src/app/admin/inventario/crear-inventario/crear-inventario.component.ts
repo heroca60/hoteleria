@@ -7,8 +7,6 @@ import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.ser
 import { debounceTime } from 'rxjs/operators';
 import { CompraService } from 'src/app/shared/servicios/compra.service';
 import { Icompra } from 'src/app/shared/interfaces/icompra';
-import { Compra } from 'src/app/shared/clases/compra';
-import { Idetalle } from 'src/app/shared/interfaces/idetalle';
 import { DetalleService } from 'src/app/shared/servicios/detalle.service';
 import { Iviewdetalle } from 'src/app/shared/interfaces/iviewdetalle';
 
@@ -124,6 +122,7 @@ export class CrearInventarioComponent implements OnInit {
 
   //post hotel con async/await
   async nuevoElemento() {
+    console.log(this.datos.value);
     if (this.datos.valid) {
       try {
         this.btnLoading = false;
@@ -132,7 +131,8 @@ export class CrearInventarioComponent implements OnInit {
         await this._apiRest.postData(this.datos.value, this.cantidadDetalle());
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
-        this.datos.reset();
+        this.datos.get('iddetalle').setValue('');        
+        this.seleccionado = false;        
         //Enviado mensaje de actualización del listado
         this.renderSon.emit("true");
         this.btnLoading = true;

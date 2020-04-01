@@ -1,0 +1,3 @@
+[2020-03-31 23:36:19.620] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/hcalderon/Documents/LoopBack/api-hotel/src/models/objetohabitacion.model.ts' (Error: File Modified Since) file:///home/hcalderon/Documents/LoopBack/api-hotel/src/models/objetohabitacion.model.ts
+[2020-04-01 00:05:29.482] [renderer1] [error] Error: [File Watcher (nsfw)] Inotify limit reached (ENOSPC)
+[2020-04-01 00:05:29.501] [renderer1] [error] [File Watcher (nsfw)] Inotify limit reached (ENOSPC)

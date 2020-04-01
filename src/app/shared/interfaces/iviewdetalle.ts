@@ -5,4 +5,5 @@ export interface Iviewdetalle {
     nombrearticulo: string;
     cantidaddetalle: number;
     preciodetalle: number;
+    inventariadodetalle: number;
 }

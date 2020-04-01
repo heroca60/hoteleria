@@ -1,13 +1,18 @@
-import { Component, OnInit, ViewChild, Output, EventEmitter } from '@angular/core';
-import { Subject, Observable, merge } from 'rxjs';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Subject } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
 import { HabitacionService } from 'src/app/shared/servicios/habitacion.service';
-import { NgbModal, ModalDismissReasons, NgbTypeahead } from '@ng-bootstrap/ng-bootstrap';
-import { debounceTime, distinctUntilChanged, filter, map } from 'rxjs/operators';
+import { NgbModal, ModalDismissReasons, NgbTabsetConfig } from '@ng-bootstrap/ng-bootstrap';
+import { debounceTime } from 'rxjs/operators';
 import { ModuloService } from 'src/app/shared/servicios/modulo.service';
 import { Imodulo } from 'src/app/shared/interfaces/imodulo';
 import { Itipo } from 'src/app/shared/interfaces/itipo';
 import { TipoService } from 'src/app/shared/servicios/tipo.service';
+import { Iservicio } from 'src/app/shared/interfaces/iservicio';
+import { ServicioService } from 'src/app/shared/servicios/servicio.service';
+import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
+import { Iviewinventario } from 'src/app/shared/interfaces/iviewinventario';
+import { InventarioService } from 'src/app/shared/servicios/inventario.service';
 
 @Component({
   selector: 'app-crear-habitacion',
@@ -17,6 +22,12 @@ import { TipoService } from 'src/app/shared/servicios/tipo.service';
 export class CrearHabitacionComponent implements OnInit {
   modulos: Imodulo[] = [];
   tipos: Itipo[] = [];
+
+  servicios: Iservicio[] = [];
+  serviciosSeleccionados: Iservicio[] = [];
+
+  inventarios: Iviewinventario[] = [];
+  inventariosSeleccionados: Iviewinventario[] = [];
 
   public isCollapsed = true;
   private _success = new Subject<string>();
@@ -35,6 +46,8 @@ export class CrearHabitacionComponent implements OnInit {
 
   //Datos del formulario
   datos: any;
+  formservicios: any;
+  forminventarios: any;
 
   //Evento para el padre... post exitoso render del list.
   @Output() renderSon = new EventEmitter<string>();
@@ -46,6 +59,9 @@ export class CrearHabitacionComponent implements OnInit {
   moduloseleccionado: string;
   tiposeleccionado: string;
 
+  ie: string;
+
+
 
   constructor(  //inyectando formulario reactivo para validación y captura de datos
     private formBuilder: FormBuilder,
@@ -53,24 +69,51 @@ export class CrearHabitacionComponent implements OnInit {
     private _apiRest: HabitacionService,
     //obteniendo los modulos del hotel
     private _modulos: ModuloService,
-    //obtenuendo los tipos de habitaciones
+    //obteniendo los tipos de habitaciones
     private _tipos: TipoService,
+    //obteniendo los servicios del hotel
+    private _servicios: ServicioService,
+    //obteniendo la vista de inventarios
+    private _inventarios: InventarioService,
     //modal
-    private modalService: NgbModal
+    private modalService: NgbModal,
+    //inyectando para el tab
+    config: NgbTabsetConfig,
+    private _config: ConfiguracionService
+
   ) {
     this.datos = this.formBuilder.group({
       idmodulo: ['', Validators.required],
       idtipo: ['', Validators.required],
       preciohabitacion: ['', Validators.required],
-      estadohabitacion: [0, Validators.required]
+      estadohabitacion: [0, Validators.required],
+      servicios:[],
+      inventarios:[]
     })
+
+    this.formservicios = this.formBuilder.group({
+      idservicio: ['']
+    })
+
+    this.forminventarios = this.formBuilder.group({
+      idinventario: ['']
+    })
+
     this.moduloseleccionado = "";
     this.tiposeleccionado = "";
+
+    // customize default values of tabsets used by this component tree
+    config.justify = 'center';
+    config.type = 'pills';
+
+    this.ie = this._config.iconoEliminar;
   }
 
   ngOnInit(): void {
     this.getAllModulos();
     this.getAllTipos();
+    this.getAllServicios();
+    this.getAllInventarios();
     //Manejo de las alertas del formulario
     setTimeout(() => this.staticAlertClosed = true, 20000);
     this._success.subscribe((message) => this.successMessage = message);
@@ -108,9 +151,37 @@ export class CrearHabitacionComponent implements OnInit {
     }
   }
 
+  async getAllServicios() {
+    try {
+      //obtenemos todos los servicios del hotel
+      this.servicios = await this._servicios.getData();
+      //Evaluamos si existen registros de tipos para ese hotel
+      if (this.servicios.length == 0) {
+        this.messageType = "danger";
+        this._success.next("No es posible agregar un servicio al registro que se intenta crear.  Es necesario crear los servicios antes de continuar con este procedimiento.");
+      }
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
+  }
+
+  async getAllInventarios() {
+    try {
+      //obtenemos todos los servicios del hotel
+      this.inventarios = await this._inventarios.getData();
+      //Evaluamos si existen registros de tipos para ese hotel
+      if (this.servicios.length == 0) {
+        this.messageType = "danger";
+        this._success.next("No es posible asignar parte del inventario al registro que se intenta crear.  Es necesario crear el inventario a partir de los gastos realizados.");
+      }
+    } catch (error) {
+      alert('Ocurrió un error: ' + error);
+    }
+  }
+
   //Modal
   open(content: any) {
-    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg', scrollable: true }).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -139,6 +210,9 @@ export class CrearHabitacionComponent implements OnInit {
         this.datos.controls['idtipo'].setValue(idt);
         //-----------------------------------
         this.btnLoading = false;
+        //agregando los servicios y complementos a la habitación
+        this.datos.get('servicios').setValue(this.serviciosSeleccionados);
+        this.datos.get('inventarios').setValue(this.inventariosSeleccionados);        
         await this._apiRest.postElemento(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
@@ -157,24 +231,51 @@ export class CrearHabitacionComponent implements OnInit {
     }
   }
 
+  eliminarServicio(e: any): void {
 
-  /*
-  emodulo(e: any): void {
-    this.moduloseleccionado = ""
-    this.modulos.forEach(element => {
-      if (element.idmodulo == e.target.value) {
-        this.moduloseleccionado = element.nombremodulo
+  }
+
+  eliminarInventario(e: any): void {
+
+  }
+
+  /*Agrega el servicio a la lista de seleccionados para luego ser guardados
+  La carga se realiza mediante la selección de un elemento en el Select del html*/
+  cargarServicio(e: any): void {
+    this.servicios.forEach(element => {
+      if (e.target.value == element.idservicio && this.verificador(e.target.value)) {
+        this.serviciosSeleccionados.push(element)
       }
     });
   }
 
-  etipo(e: any): void {
-    this.tiposeleccionado = ""
-    this.tipos.forEach(element => {
-      if (element.idtipo == e.target.value) {
-        this.tiposeleccionado = element.nombretipo
+  /*Agrega el inventario a la lista de seleccionados para luego ser guardados
+  La carga se realiza mediante la selección de un elemento en el Select del html*/
+  cargarInventario(e: any): void {
+    this.inventarios.forEach(element => {
+      if (e.target.value == element.idinventario && this.verificadorInventario(e.target.value)) {
+        this.inventariosSeleccionados.push(element)
       }
     });
   }
-*/
+
+  verificador(e: any): boolean {
+    let res = true;
+    this.serviciosSeleccionados.forEach(element => {
+      if (e == element.idservicio) {
+        res = false;
+      }
+    });
+    return res;
+  }
+
+  verificadorInventario(e: any): boolean {
+    let res = true;
+    this.inventariosSeleccionados.forEach(element => {
+      if (e == element.idinventario) {
+        res = false;
+      }
+    });
+    return res;
+  }
 }

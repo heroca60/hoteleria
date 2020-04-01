@@ -710,3 +710,4 @@
     at processTicksAndRejections (internal/process/task_queues.js:89:5)
 (node:4279) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 32)
 (node:4279) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 32)
+[Info  - 1:50:36] ESLint server stopped.

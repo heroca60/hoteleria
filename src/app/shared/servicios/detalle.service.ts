@@ -32,7 +32,7 @@ export class DetalleService {
   //***********GETByInventariado Async/Away****************** 
   async getDataByEstado(idcompra: number) {
     return await this._http.get<Iviewdetalle[]>
-      (environment.apiRest + 'viewdetalles/' + idcompra).toPromise();
+      (environment.apiRest + 'viewdetallebystatus/' + idcompra).toPromise();
   }
   //************************************************ 
 

@@ -3,20 +3,27 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Tipo</th>                
+                <th scope="col">Tipo</th>
                 <th scope="col">Actualizar</th>
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let item of items">
-                <td>{{ item.idtipo}}</td>
-                <td>{{ item.nombretipo}}</td>                
-                <td>
-                    <a title="Actualizar registro">
-                        <i class="material-icons">{{ia}}</i>
-                    </a>
+            <tr *ngIf="collectionSize==0 else carga">
+                <td colspan="3" class="centrarElemento">
+                    No existen registros creados.
                 </td>
             </tr>
+            <ng-template #carga>
+                <tr *ngFor="let item of items">
+                    <td>{{ item.idtipo}}</td>
+                    <td>{{ item.nombretipo}}</td>
+                    <td>
+                        <a title="Actualizar registro">
+                            <i class="material-icons">{{ia}}</i>
+                        </a>
+                    </td>
+                </tr>
+            </ng-template>
         </tbody>
     </table>
     <!--PAGINACION DEL LISTADO-->

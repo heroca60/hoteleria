@@ -14,25 +14,33 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let item of items">
-                <td>{{ item.idcompra}}</td>
-                <td>{{ item.proveedorcompra}}</td>
-                <td>{{ item.seriecompra}}</td>
-                <td>{{ item.numerocompra}}</td>
-                <td>{{ item.totalcompra | currency:'Q '}}</td>
-                <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
-                <td>{{ item.observacioncompra}}</td>
-                <td>
-                    <a title="Detallar compra" (click)="openModalDetalle(contentDetalle, hotel, item)">
-                        <i class="material-icons">{{ic}}</i>
-                    </a>
-                </td>
-                <td>
-                    <a title="Listar detalle" (click)="openModalListadoDetalle(contentListadoDetalle, hotel, item)">
-                        <i class="material-icons">{{il}}</i>
-                    </a>
+            <tr *ngIf="collectionSize==0 else carga">
+                <td colspan="9" class="centrarElemento">
+                    No existen registros creados.
                 </td>
             </tr>
+
+            <ng-template #carga>
+                <tr *ngFor="let item of items">
+                    <td>{{ item.idcompra}}</td>
+                    <td>{{ item.proveedorcompra}}</td>
+                    <td>{{ item.seriecompra}}</td>
+                    <td>{{ item.numerocompra}}</td>
+                    <td>{{ item.totalcompra | currency:'Q '}}</td>
+                    <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
+                    <td>{{ item.observacioncompra}}</td>
+                    <td>
+                        <a title="Detallar compra" (click)="openModalDetalle(contentDetalle, hotel, item)">
+                            <i class="material-icons">{{ic}}</i>
+                        </a>
+                    </td>
+                    <td>
+                        <a title="Listar detalle" (click)="openModalListadoDetalle(contentListadoDetalle, hotel, item)">
+                            <i class="material-icons">{{il}}</i>
+                        </a>
+                    </td>
+                </tr>
+            </ng-template>
         </tbody>
     </table>
     <!--PAGINACION DEL LISTADO-->

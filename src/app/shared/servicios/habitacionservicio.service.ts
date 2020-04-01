@@ -35,8 +35,8 @@ export class HabitacionservicioService {
   //************************************************
 
   //***************POST con async/await*************************
-  async postData(data: Ihabitacionservicio) {
-    let response = await this._http.post<Ihabitacionservicio>(environment.apiRest + 'habitacionservicios', JSON.stringify(data), this.httpOptions).toPromise();
+  async postData(data: any) {
+    let response = await this._http.post<any>(environment.apiRest + 'habitacionservicios', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }
 }
