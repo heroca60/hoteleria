@@ -3,4 +3,5 @@ export interface Iinventario {
     idhotel: number;
     iddetalle: number;
     estadoinventario: number;
+    asignadoinventario: number;
 }

@@ -7,9 +7,10 @@
         </button>
     </div>
     <div class="modal-body">
-        <ngb-tabset>
-            <ngb-tab title="Habitación">
-                <ng-template ngbTabContent>
+        <ul ngbNav #nav="ngbNav" class="nav-tabs">
+            <li ngbNavItem>
+                <a ngbNavLink>Habitación</a>
+                <ng-template ngbNavContent>
                     <form [formGroup]="datos">
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -48,27 +49,38 @@
                         </div>
                     </form>
                 </ng-template>
-            </ngb-tab>
-            <ngb-tab title="Servicios">
-                <ng-template ngbTabContent>
+            </li>
+            <li ngbNavItem>
+                <a ngbNavLink>Servicios</a>
+                <ng-template ngbNavContent>
                     <form [formGroup]="formservicios">
-                        <div class="form-group col-md-12">
-                            <label class="my-1 mr-2" for="idservicio">Servicios:</label>
-                            <select class="custom-select my-1 mr-sm-2" id="idservicio" 
-                            formControlName="idservicio"
-                            (change)="cargarServicio($event)">
-                                <option *ngFor="let item of servicios" value={{item.idservicio}}>
-                                    {{item.nombreservicio}}
-                                </option>
-                            </select>
+                        <div class="form-row">
+                            <div class="form-group col-md-10">
+                                <label class="my-1 mr-2" for="idservicio">Servicios:</label>
+                                <select class="custom-select my-1 mr-sm-2" id="idservicio" formControlName="idservicio"
+                                    (change)="cargarServicio($event)">
+                                    <option *ngFor="let item of servicios" value={{item.idservicio}}>
+                                        {{item.nombreservicio}}
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label class="my-1 mr-2" for="todos"></label>
+                                <br/>
+                                <a (click)="agregarTodos()" id="todos"
+                                    ngbPopover="Agregar todos los servicios"
+                                    triggers="mouseenter:mouseleave" placement="left" popoverTitle="Agregar">
+                                    <i class="material-icons md-36">{{it}}</i>
+                                </a>
+                            </div>
                         </div>
                     </form>
                     <div class="table-responsive-lg">
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="centrarElemento">Servicios seleccionados</th>
-                                    <th scope="col" class="centrarElemento">Acción</th>
+                                    <th scope="col" class="centrarElemento">Servicios</th>
+                                    <th scope="col" class="centrarElemento">Remover</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -77,12 +89,11 @@
                                         No existen servicios seleccionados.
                                     </td>
                                 </tr>
-
                                 <ng-template #carga>
                                     <tr *ngFor="let item of serviciosSeleccionados">
                                         <td class="centrarElemento">{{ item.nombreservicio }}</td>
                                         <td class="centrarElemento">
-                                            <a (click)="eliminarServicio($event)"
+                                            <a (click)="eliminarServicio(item.idservicio)"
                                                 ngbPopover="El registro puede removerse sin ningún problema"
                                                 triggers="mouseenter:mouseleave" placement="left"
                                                 popoverTitle="Eliminar">
@@ -95,17 +106,18 @@
                         </table>
                     </div>
                 </ng-template>
-            </ngb-tab>
-            <ngb-tab title="Complementos">
-                <ng-template ngbTabContent>
+            </li>
+            <li ngbNavItem>
+                <a ngbNavLink>Complementos</a>
+                <ng-template ngbNavContent>
                     <form [formGroup]="forminventarios">
-                        <div class="form-group col-md-12">
+                        <div class="form-group">
                             <label class="my-1 mr-2" for="idinventario">Inventarios:</label>
                             <select class="custom-select my-1 mr-sm-2" id="idinventario" formControlName="idinventario"
                                 (change)="cargarInventario($event)">
                                 <option *ngFor="let item of inventarios" value={{item.idinventario}}>
                                     código:
-                                    {{item.idhotel}}.{{item.iddetalle}}.{{item.idinventario}} - {{item.nombrearticulo}}
+                                    {{item.idhotel}}.{{item.iddetalle}}.{{item.idinventario}}-{{item.nombrearticulo}}
                                     {{ item.descripcionarticulo}}
                                 </option>
                             </select>
@@ -115,18 +127,18 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="centrarElemento">Complementos seleccionados</th>
-                                    <th scope="col" class="centrarElemento">Acción</th>
+                                    <th scope="col" class="centrarElemento">Complementos</th>
+                                    <th scope="col" class="centrarElemento">Remover</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr *ngIf="serviciosSeleccionados.length==0 else carga">
+                                <tr *ngIf="inventariosSeleccionados.length==0 else cargai">
                                     <td colspan="2" class="centrarElemento">
-                                        No existen servicios seleccionados.
+                                        No existen inventarios seleccionados.
                                     </td>
                                 </tr>
 
-                                <ng-template #carga>
+                                <ng-template #cargai>
                                     <tr *ngFor="let item of inventariosSeleccionados">
                                         <td class="centrarElemento">
                                             código:
@@ -135,7 +147,7 @@
                                             {{ item.descripcionarticulo}}
                                         </td>
                                         <td class="centrarElemento">
-                                            <a (click)="eliminarInventario($event)"
+                                            <a (click)="eliminarInventario(item.idinventario)"
                                                 ngbPopover="El registro puede removerse sin ningún problema"
                                                 triggers="mouseenter:mouseleave" placement="left"
                                                 popoverTitle="Eliminar">
@@ -148,8 +160,9 @@
                         </table>
                     </div>
                 </ng-template>
-            </ngb-tab>
-        </ngb-tabset>
+            </li>
+        </ul>
+        <div [ngbNavOutlet]="nav" class="mt-2"></div>
         <!--Inicia el espacio de mensajes-->
         <ngb-alert *ngIf="successMessage" type={{messageType}} (close)="successMessage = null">
             {{ successMessage }}

@@ -1,0 +1,17 @@
+[2020-04-01 08:18:20.955] [renderer1] [error] Error: [File Watcher (nsfw)] Inotify limit reached (ENOSPC)
+[2020-04-01 08:18:21.048] [renderer1] [error] [File Watcher (nsfw)] Inotify limit reached (ENOSPC)
+[2020-04-01 10:33:50.669] [renderer1] [error] TreeError [MarkersView] Tree element not found: [object Object]: Error: TreeError [MarkersView] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:135:14)
+    at t.ObjectTreeModel.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:134:122)
+    at H.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1070:430)
+    at K.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6311:830)
+    at K.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6308:1005)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6307:862
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:113:203
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:116:845)
+    at e.doHandleActiveEditorChangeEvent (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5780:290)
+    at e.handleActiveEditorChange (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5780:88)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5780:400
+    at c.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:116:845)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5938:990
+    at async e.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5937:800)

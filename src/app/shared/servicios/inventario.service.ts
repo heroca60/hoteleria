@@ -31,8 +31,17 @@ export class InventarioService {
       (environment.apiRest + 'viewinventarios/' + this._config.hotel.idhotel).toPromise();
   }
 
+  /*========================================
+    Devuelve todos los inventarios activos y no asignados a habitaciones de un 
+    respectivo hotel
+  =========================================*/
+  async getDataActiveNoAsig() {
+    return await this._http.get<Iviewinventario[]>
+      (environment.apiRest + 'viewinventariosana/' + this._config.hotel.idhotel).toPromise();
+  }
+
   //***************POST con async/await*************************
-  async postData(data: Iinventario, cantidad: number) {    
+  async postData(data: Iinventario, cantidad: number) {
     let response = await this._http.post<Iinventario>(environment.apiRest + 'inventarios/' + cantidad, JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }

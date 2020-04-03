@@ -3,8 +3,7 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Hotel</th>
-                <th scope="col">Módulo</th>
+                <th scope="col">Hotel</th>                
                 <th scope="col">Tipo</th>
                 <th scope="col">Precio</th>
                 <th scope="col">Estado</th>
@@ -19,9 +18,8 @@
 
             <ng-template #carga>
                 <tr *ngFor="let item of items">
-                    <td>{{ item.idhabitacion}}</td>
-                    <td>{{ item.nombrehotel }}</td>
-                    <td>{{ item.nombremodulo}}</td>
+                    <td>{{ item.nombremodulo}}{{ item.idhabitacion}}</td>
+                    <td>{{ item.nombrehotel }}</td>                    
                     <td>{{ item.nombretipo}}</td>
                     <td>{{ item.preciohabitacion | currency: 'Q '}}</td>
                     <td *ngIf="item.estadohabitacion == 1 else disponible">

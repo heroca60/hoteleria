@@ -4,11 +4,9 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Proveedor</th>
-                <th scope="col">Serie</th>
-                <th scope="col">Número</th>
+                <th scope="col">Factura</th>                
                 <th scope="col">Total</th>
-                <th scope="col">Fecha</th>
-                <th scope="col">Observaciones</th>
+                <th scope="col">Fecha</th>                
                 <th scope="col">Detallar</th>
                 <th scope="col">Estado</th>
             </tr>
@@ -24,11 +22,9 @@
                 <tr *ngFor="let item of items">
                     <td>{{ item.idcompra}}</td>
                     <td>{{ item.proveedorcompra}}</td>
-                    <td>{{ item.seriecompra}}</td>
-                    <td>{{ item.numerocompra}}</td>
+                    <td>{{ item.seriecompra}}-{{item.numerocompra}}</td>                    
                     <td>{{ item.totalcompra | currency:'Q '}}</td>
-                    <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>
-                    <td>{{ item.observacioncompra}}</td>
+                    <td>{{ item.fechacompra | date:'dd/MM/yyyy'}}</td>                    
                     <td>
                         <a title="Detallar compra" (click)="openModalDetalle(contentDetalle, hotel, item)">
                             <i class="material-icons">{{ic}}</i>

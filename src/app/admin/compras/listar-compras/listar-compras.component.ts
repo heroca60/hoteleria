@@ -229,11 +229,12 @@ export class ListarComprasComponent implements OnInit {
   async eliminarDetalle(id: number) {
     try {
       let res = await this._apiRestDetalle.deleteData(id);
-      this.messageType = "info";
-      this._success.next(res.toString());
+      this.messageType = "danger";
+      this._success.next(String(res));
       this.getDetalleCompra(this.idcompra);
     } catch (error) {
-
+      this.messageType = "danger";
+      this._success.next(String(error));
     }
   }
 

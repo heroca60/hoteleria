@@ -32,7 +32,7 @@ export class HabitacionService {
   }
 
   //***************POST con async/await*************************
-  async postElemento(data: Ihabitacion) {
+  async postElemento(data: Ihabitacion) {    
     let response = await this._http.post<Ihabitacion>(environment.apiRest + 'habitaciones', JSON.stringify(data), this.httpOptions).toPromise();
     return response
   }

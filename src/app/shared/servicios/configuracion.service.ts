@@ -14,6 +14,7 @@ export class ConfiguracionService {
   iconoListar: string = "list"
   iconoServicios: string = "add_to_queue";
   iconoInventario: string = "weekend";
+  iconoCargarTodos: string = "system_update_alt";
   hotel: Ihotel;
   constructor() { }
 }

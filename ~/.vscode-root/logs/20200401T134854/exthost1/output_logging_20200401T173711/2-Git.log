@@ -1,0 +1,541 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/LoopBack/api-estudiantes
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git check-ignore -v -z --stdin
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/repositories/telefono.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/telefono.repository.ts
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/estudiante.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/estudiante.model.ts
+> git cat-file -s e7846dd75d1e8f88e4c72e959fcd395fc9670e8a
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/models/telefono.model.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/models/telefono.model.ts
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git rev-parse --show-toplevel
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> git show :src/repositories/estudiante.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/estudiante.repository.ts
+> git cat-file -s 4530d9f16a777a6c4f4021bcdbcdc6338f250238
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/repositories/telefono.repository.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/repositories/telefono.repository.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/controllers/telefono.controller.ts
+> git ls-files --stage -- /home/hcalderon/Documents/LoopBack/api-estudiantes/src/controllers/telefono.controller.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

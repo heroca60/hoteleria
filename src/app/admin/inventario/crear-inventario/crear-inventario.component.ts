@@ -62,7 +62,9 @@ export class CrearInventarioComponent implements OnInit {
     //Formulario
     this.datos = this.formBuilder.group({
       idhotel: [this._config.hotel.idhotel],
-      iddetalle: ['', Validators.required]
+      iddetalle: ['', Validators.required],
+      estadoinventario:[1],
+      asignadoinventario:[0]
     })
   }
 

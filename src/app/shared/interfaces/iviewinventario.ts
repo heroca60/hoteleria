@@ -6,4 +6,5 @@ export interface Iviewinventario {
     nombrearticulo: string;
     descripcionarticulo: string;
     estadoinventario: number;
+    asignadoinventario: number;
 }
