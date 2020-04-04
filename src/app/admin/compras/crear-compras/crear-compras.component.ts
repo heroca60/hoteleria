@@ -1,16 +1,15 @@
 import {
   Component,
-  OnInit,
-  Output,
-  EventEmitter
+  OnInit
 }
   from '@angular/core';
 import { Subject } from 'rxjs';
 import { FormBuilder, Validators } from '@angular/forms';
 import { CompraService } from 'src/app/shared/servicios/compra.service';
 import { debounceTime } from 'rxjs/operators';
-import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalDismissReasons, NgbModal, NgbNavConfig } from '@ng-bootstrap/ng-bootstrap';
 import { ConfiguracionService } from 'src/app/shared/servicios/configuracion.service';
+import { Idetalle } from 'src/app/shared/interfaces/idetalle';
 
 @Component({
   selector: 'app-crear-compras',
@@ -34,9 +33,6 @@ export class CrearComprasComponent implements OnInit {
   //Datos del formulario
   datos: any;
 
-  //Evento para el padre... post exitoso render del list.
-  @Output() renderSon = new EventEmitter<string>();
-
   //Control del boton carga...
   btnLoading: boolean = true;
 
@@ -48,7 +44,9 @@ export class CrearComprasComponent implements OnInit {
     //modal
     private modalService: NgbModal,
     //configuracion general
-    private _config: ConfiguracionService
+    private _config: ConfiguracionService,
+    //tab
+    config: NgbNavConfig
   ) {
     //Formulario
     this.datos = this.formBuilder.group({
@@ -60,7 +58,10 @@ export class CrearComprasComponent implements OnInit {
       seriecompra: ['', Validators.required],
       numerocompra: ['', Validators.required],
       estadocompra: [0]
-    })
+    });
+    // customize default values of navs used by this component tree
+    config.destroyOnHide = false;
+    config.roles = false;
   }
 
   ngOnInit(): void {
@@ -75,7 +76,7 @@ export class CrearComprasComponent implements OnInit {
 
   //Modal
   open(content: any) {
-    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg' }).result.then((result) => {
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title', size: 'lg', scrollable: true }).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
     }, (reason) => {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
@@ -98,12 +99,10 @@ export class CrearComprasComponent implements OnInit {
     if (this.datos.valid) {
       try {
         this.btnLoading = false;
-        await this._apiRest.postData(this.datos.value);
+        //await this._apiRest.postData(this.datos.value);
         this.messageType = "success";
         this._success.next("Registro almacenado exitosamente !!!");
         this.datos.reset();
-        //Enviado mensaje de actualización del listado
-        this.renderSon.emit("true");
         this.btnLoading = true;
       } catch (error) {
         this.btnLoading = true;
@@ -114,7 +113,5 @@ export class CrearComprasComponent implements OnInit {
       this.messageType = "warning";
       this._success.next("Complete los campos que son obligatorios");
     }
-
   }
-
 }

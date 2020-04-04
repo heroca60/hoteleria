@@ -1,0 +1,72 @@
+<form [formGroup]="datos">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="idarticulo">Articulo:</label>
+            <select class="custom-select my-1 mr-sm-2" id="idarticulo" formControlName="idarticulo">
+                <option *ngFor="let item of articulos$" value={{item.idarticulo}}>
+                    {{item.nombrearticulo}} {{item.descripcionarticulo}}
+                </option>
+            </select>
+            <small class="form-text text-muted">Campo obligatorio *</small>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="cantidaddetalle">Cantidad:</label>
+            <input type="number" class="form-control" id="cantidaddetalle" 
+            placeholder="10" min="1" formControlName="cantidaddetalle">
+            <small class="form-text text-muted">Campo obligatorio *</small>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="preciodetalle">Precio unitario:</label>
+            <input type="number" class="form-control" id="preciodetalle" placeholder="1550.75"
+                formControlName="preciodetalle" min="1" step="0.01">
+            <small class="form-text text-muted">Campo obligatorio *</small>
+        </div>
+        <div class="form-group col-md-2">
+            <label class="my-1 mr-2" for="todos">Agregar:</label>
+            <br />
+            <a (click)="agregarDetalle()" id="todos" ngbPopover="Agregar detalle"
+                triggers="mouseenter:mouseleave" placement="left" popoverTitle="Agregar">
+                <i class="material-icons md-36">{{it}}</i>
+            </a>
+        </div>
+    </div>
+</form>
+
+<!--
+    listado de detalles
+-->
+<div class="table-responsive-lg">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Articulo</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Sub total</th>
+                <th scope="col">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of detalles">
+                <td>{{ item.idarticulo}}</td>
+                <td>{{ item.cantidaddetalle}}</td>
+                <td>{{ item.preciodetalle | currency:'Q '}}</td>
+                <td>{{ item.preciodetalle * item.cantidaddetalle | currency:'Q '}}</td>
+                <td>
+                    <a (click)="eliminarDetalle()"
+                        ngbPopover="El registro puede eliminarse toda vez no esté inventariado"
+                        triggers="mouseenter:mouseleave" placement="left" popoverTitle="Precaución">
+                        <i class="material-icons">{{ie}}</i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <td>{{total | currency: 'Q '}}</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
