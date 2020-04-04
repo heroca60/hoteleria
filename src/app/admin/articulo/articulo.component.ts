@@ -7,7 +7,7 @@ import { ListarArticuloComponent } from './listar-articulo/listar-articulo.compo
   styleUrls: ['./articulo.component.css']
 })
 export class ArticuloComponent implements OnInit {
-  @ViewChild(ListarArticuloComponent) componenteListar: ListarArticuloComponent;  
+  @ViewChild(ListarArticuloComponent) componenteListar: ListarArticuloComponent;
 
   constructor() { }
 
@@ -15,7 +15,8 @@ export class ArticuloComponent implements OnInit {
   }
 
 
-  render(val: string): void {    
+
+  render(val: string): void {
     this.componenteListar.renderm();
   }
 }

@@ -47,6 +47,7 @@ import { ListarHabitacionservicioComponent } from './admin/habitacionservicio/li
 import { InventarioComponent } from './admin/inventario/inventario.component';
 import { CrearInventarioComponent } from './admin/inventario/crear-inventario/crear-inventario.component';
 import { ListarInventarioComponent } from './admin/inventario/listar-inventario/listar-inventario.component';
+import { DetalleComprasComponent } from './admin/compras/crear-compras/detalle-compras/detalle-compras.component';
 
 
 @NgModule({
@@ -85,7 +86,8 @@ import { ListarInventarioComponent } from './admin/inventario/listar-inventario/
     ListarHabitacionservicioComponent,
     InventarioComponent,
     CrearInventarioComponent,
-    ListarInventarioComponent    
+    ListarInventarioComponent,
+    DetalleComprasComponent    
   ],
   imports: [
     BrowserModule,

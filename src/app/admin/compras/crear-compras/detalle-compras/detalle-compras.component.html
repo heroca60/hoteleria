@@ -26,7 +26,7 @@
             <br />
             <a (click)="agregarDetalle()" id="todos" ngbPopover="Agregar detalle"
                 triggers="mouseenter:mouseleave" placement="left" popoverTitle="Agregar">
-                <i class="material-icons md-36">{{it}}</i>
+                <i class="material-icons md-48">{{it}}</i>
             </a>
         </div>
     </div>
@@ -53,8 +53,8 @@
                 <td>{{ item.preciodetalle | currency:'Q '}}</td>
                 <td>{{ item.preciodetalle * item.cantidaddetalle | currency:'Q '}}</td>
                 <td>
-                    <a (click)="eliminarDetalle()"
-                        ngbPopover="El registro puede eliminarse toda vez no esté inventariado"
+                    <a (click)="eliminarDetalle(item.idarticulo)"
+                        ngbPopover="El registro puede eliminarse sin problema"
                         triggers="mouseenter:mouseleave" placement="left" popoverTitle="Precaución">
                         <i class="material-icons">{{ie}}</i>
                     </a>

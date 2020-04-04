@@ -114,4 +114,9 @@ export class CrearComprasComponent implements OnInit {
       this._success.next("Complete los campos que son obligatorios");
     }
   }
+
+  mostrarmensaje(e: string): void {
+    this.messageType = "warning";
+    this._success.next(e);
+  }
 }

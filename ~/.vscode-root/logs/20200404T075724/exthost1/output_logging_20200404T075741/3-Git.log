@@ -1,0 +1,813 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/Angular/hoteleria
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/hcalderon/Documents/LoopBack/api-hotel
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/app.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app.module.ts
+> git cat-file -s af181836aec425d62b0e913c3935857d64d97ac8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/app.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app.module.ts
+> git cat-file -s af181836aec425d62b0e913c3935857d64d97ac8
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s fb204070503546f1755d7ffc5d2317294cc72986
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 6f48053fb6f19a2aab3021163bc025d1e075a498
+> git show :src/app/admin/articulo/articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.ts
+> git cat-file -s e346818324c91159dcc1c592bc894085ead4b461
+> git show :src/app/admin/articulo/articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/articulo.component.html
+> git cat-file -s 55ea73ebb5aece89aba01fb1f4b49112b388aca1
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.ts
+> git cat-file -s 6f48053fb6f19a2aab3021163bc025d1e075a498
+> git show :src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/articulo/listar-articulo/listar-articulo.component.html
+> git cat-file -s fb204070503546f1755d7ffc5d2317294cc72986
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/app.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app.module.ts
+> git cat-file -s af181836aec425d62b0e913c3935857d64d97ac8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.ts
+> git cat-file -s 357172d5dfebeb1cd81e2c9a485268217e1536f7
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/modulo/modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.html
+> git cat-file -s ab3cc3d556fb91a1a8cc0ab286d4ff642cee2ba6
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.ts
+> git cat-file -s e0bc2303649c605b87c47ab192e12a7492f9cf63
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/modulo.component.ts
+> git cat-file -s beda48d50ed906d95d914ec95fb671274afac133
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.html
+> git cat-file -s f2e7899a0f90a49687818cfaa25ba5c53d4599ba
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/listar-modulo/listar-modulo.component.ts
+> git cat-file -s e321385d7c0b8c71da098d52e8b0e7c9f624877b
+> git show :src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/modulo/crear-modulo/crear-modulo.component.html
+> git cat-file -s 09552cf95c6d9c9494274898fb2125205ad1fa4c
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.ts
+> git cat-file -s e0bc2303649c605b87c47ab192e12a7492f9cf63
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.ts
+> git cat-file -s e0bc2303649c605b87c47ab192e12a7492f9cf63
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git check-ignore -v -z --stdin
+> git show :angular.json
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/angular.json
+> git cat-file -s 854535a3b29bf2e7881d67dfa5524e123ba0e071
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/admin.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/admin.component.ts
+> git cat-file -s b91e358b6f68701715b6dabd991a08cf70735f02
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git status -z -u
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git symbolic-ref --short HEAD
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git symbolic-ref --short HEAD
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 7c0f16b20196c421d1c17bb2337823f393f45146
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.html
+> git cat-file -s 708a911cfb10be050eb1971c1735d4d200a27349
+> git show :src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/listar-compras/listar-compras.component.ts
+> git cat-file -s 7c0f16b20196c421d1c17bb2337823f393f45146
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.html
+> git cat-file -s 41346f52d827f51fba15575a72189524a79761a6
+> git show :src/app/admin/compras/compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.ts
+> git cat-file -s e0bc2303649c605b87c47ab192e12a7492f9cf63
+> git show :src/app/admin/compras/compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/compras.component.html
+> git cat-file -s 41346f52d827f51fba15575a72189524a79761a6
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/listardetalle-compras/listardetalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s 60a1734b550d5263b4fe7fd6ed73d66466112cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/app.module.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/app.module.ts
+> git cat-file -s af181836aec425d62b0e913c3935857d64d97ac8
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/habitacion/crear-habitacion/crear-habitacion.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/habitacion/crear-habitacion/crear-habitacion.component.html
+> git cat-file -s 4482b22becac4408d411607bd296cf2394ab8a54
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/habitacion/crear-habitacion/crear-habitacion.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/habitacion/crear-habitacion/crear-habitacion.component.html
+> git cat-file -s 4482b22becac4408d411607bd296cf2394ab8a54
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 58a607ea4bcc70171351d5ccb1a907d4cbb27b28
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git symbolic-ref --short HEAD
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git rev-parse --symbolic-full-name master@{u}
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/.gitignore
+> git cat-file -s 86d943a9b2e8f3bb69fbe37fd8363962646b1d92
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git check-ignore -v -z --stdin
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.ts
+> git cat-file -s 3835f14270b4ffe209d437e5fc631ce538ee3c58
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.ts
+> git cat-file -s 38f1f2ce4b596c3a939d16ba6e4d55131bf113df
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git show :src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/detalle-compras/detalle-compras.component.html
+> git cat-file -s afe8e06b45ec3e4431da174099bc432d1f970cf5
+> git show :src/app/admin/compras/crear-compras/crear-compras.component.html
+> git ls-files --stage -- /home/hcalderon/Documents/Angular/hoteleria/src/app/admin/compras/crear-compras/crear-compras.component.html
+> git cat-file -s e8b3564441104c5842e7f8496eac88a584f4359d
+> git check-ignore -v -z --stdin

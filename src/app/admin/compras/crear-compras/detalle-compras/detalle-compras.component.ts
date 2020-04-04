@@ -15,12 +15,14 @@ export class DetalleComprasComponent implements OnInit {
   datos: any;
 
   //Listado de detalles
-  detalles: Idetalle[];  
+  detalles: Idetalle[];
   total: number = 0.00;
 
   //iconos
   ie: string = "";
   it: string = "";
+
+  @Output() mensaje = new EventEmitter<string>();
 
   constructor(
     //inyectando formulario reactivo para validación y captura de datos
@@ -57,14 +59,40 @@ export class DetalleComprasComponent implements OnInit {
     if (this.datos.valid) {
       let id: number = Number(this.datos.get('idarticulo').value)
       this.datos.controls['idarticulo'].setValue(id);
-      this.detalles.push(this.datos.value);
-      this.total += (this.datos.get('cantidaddetalle').value * this.datos.get('preciodetalle').value)
+      if (this.validar(id)) {
+        this.detalles.push(this.datos.value);
+        this.total += (this.datos.get('cantidaddetalle').value * this.datos.get('preciodetalle').value)
+        this.datos.reset();
+        this.datos.controls['inventariadodetalle'].setValue(0);
+      } else {
+        this.mensaje.emit("El artículo seleccionado ya se encuentra en el listado.");
+        this.datos.reset();
+        this.datos.controls['inventariadodetalle'].setValue(0);
+      }
+    } else {
+      this.mensaje.emit("Complete los campos obligatorios");
     }
   }
 
+  eliminarDetalle(id: number): void {
+    let i = 0;
+    this.detalles.forEach(item => {
+      if (id === item.idarticulo) {
+        this.total = this.total - (item.cantidaddetalle * item.preciodetalle)
+        this.detalles.splice(i, 1);
+      }
+      i++;
+    })
+  }
 
-  eliminarDetalle(): void {
-
+  validar(id: number): boolean {
+    let res: boolean = true
+    this.detalles.forEach(item => {
+      if (item.idarticulo === id) {
+        res = false;
+      }
+    })
+    return res;
   }
 }
 

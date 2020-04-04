@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ListarAdminComponent } from './listar-admin/listar-admin.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { Ihotel } from '../shared/interfaces/ihotel';
 
 @Component({
   selector: 'app-admin',

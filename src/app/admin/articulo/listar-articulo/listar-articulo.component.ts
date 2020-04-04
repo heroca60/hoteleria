@@ -15,17 +15,17 @@ export class ListarArticuloComponent implements OnInit {
   collectionSize = 0;
 
   //icono actualizar
-  ia: string;
+  ia: string;  
 
   constructor(
     private _apiRest: ArticuloService,
     private _config: ConfiguracionService
   ) {
     this.ia = this._config.iconoActualizar
-   }
+  }
 
-  ngOnInit(): void {
-    this.getAllData();
+  ngOnInit(): void {    
+    this.getAllData();    
   }
 
   async getAllData() {
